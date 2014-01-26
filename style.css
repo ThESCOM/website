@@ -31,11 +31,13 @@ body {
     margin: auto;
     width: 800px;
     background-image: -webkit-gradient(linear, 0 0, 0 100, from(#eee), to(#fff));
-    background-image: -moz-linear-gradient(top, #eee, #fff);
+    /*background-image: -moz-linear-gradient(top, #eee, #fff);*/
+    background-image: -moz-linear-gradient(top, #B2DFEE, #fff);
     background-repeat: no-repeat;
     font-family: 'Molengo';
     font-size: 14px;
-    color: hsl(0,0%,40%);
+    /*color: hsl(0,0%,40%);*/
+    color: #00008B;/*hsl(0,4%,30%);*/
 }
 
 a {
@@ -47,21 +49,32 @@ a:hover {
 }
 
 mark {
-    color: #000;
+    /*color: #000;*/
+    color: #00008B;
     background: none;
+    font-weight:bold;
 }
 
 header {
     padding-top: 10px;
-    height: 100px;
+    height: 50px;
 }
 
 header .description {
     padding-top: 18px;
     margin-left: 360px;
     font-size: 13px;
-    color: #aaa;
-    text-shadow: 1px 1px 0 white;
+    /*color: #aaa;*/
+    color: #000080;
+    /*text-shadow: 1px 1px 0 white;*/
+    text-shadow: 1px 1px 0 #ADD8E6;
+}
+header img{
+    position: absolute;
+}
+header h2 {
+    margin-left: 100px;
+    color: #000080;
 }
 /*header h1, header h2 {
     font-family: 'Droid Serif';
@@ -117,7 +130,7 @@ nav li:last-of-type {
 }
 nav li:not(:last-of-type):hover {
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#bfbfbf), to(#f2f2f2));
-    background-image: -moz-linear-gradient(top, #bfbfbf, #f2f2f2);
+    background-image: -moz-linear-gradient(top, #1E90FF, #add8e6);
     cursor: pointer;
     color: #1883cb;
     border-right: 1px solid transparent;
@@ -141,12 +154,17 @@ body > footer p {
 
 /*.gray-gradient {*/
 nav, .info-box, body > footer {
-    background: #d9d9d9;
+    /*background: #d9d9d9;*/
+    background: #1E90FF;
     background: -webkit-gradient(linear, left top, left bottom,
         from(#f2f2f2), to(#bfbfbf));
-    background: -moz-linear-gradient(top, #f2f2f2, #BFBFBF);
-    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#f2f2f2',
-            endColorstr='#bfbfbf', GradientType=0);
+    /*background: -moz-linear-gradient(top, #f2f2f2, #BFBFBF);*/
+    /*background: -moz-linear-gradient(top, #add8e6, #00008b); /*1874cd);*/
+    background: -moz-linear-gradient(top, #add8e6, #1E90FF); /*1874cd);*/
+    /*filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#f2f2f2',
+            endColorstr='#bfbfbf', GradientType=0);*/
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#add8e6',
+            endColorstr='#00008b', GradientType=0);
     -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#f2f2f2',
             endColorstr='#bfbfbf', GradientType=0);
 
@@ -217,10 +235,53 @@ body > *:not(header){
     opacity: 0.8;
 }
 
+#kunstgewerbe > div{
+    background-image: url(media/images/oberberger-kunstgewerbe.de.png);
+    background-repeat: no-repeat;
+    background-position:40%;
+    background-size: 150%;
+}
+#blog > div{
+    background-image: url(media/images/maxoberberger.net.png);
+    background-repeat: no-repeat;
+    background-position:50%;
+    background-size: 170%;
+}
+#karoec > div{
+    background-image: url(media/images/karoec.de.png);
+    background-repeat: no-repeat;
+    background-position:50%;
+    background-size: 120%;
+}
+#lis-dns > div{
+    background-image: url(media/images/cmc2-dns-plugin.png);
+    background-repeat: no-repeat;
+    background-position:5%;
+    background-size: 125%;
+}
+#resapp > div{
+    background-image: url(media/images/resApp.png);
+    background-repeat: no-repeat;
+    /*background-position:5%;*/
+    background-size: 100%;
+}
+#gymnastik > div{
+    background-image: url(media/images/ingridoberberger.de.png);
+    background-repeat: no-repeat;
+    background-position:45%;
+    background-size: 150%;
+}
+#hboot > div{
+    background-image: url(media/images/hboot.de.png);
+    background-repeat: no-repeat;
+    background-position:40%;
+    background-size: 148%;
+}
+
 #overview article#encryption{
     background-image: url(media/images/verschluesselt.jpg);
 }
-#overview article#encryption p {
+#overview article#encryption p, #overview article#complicated p {
     height: auto;
     padding: 1em;
     margin: 70px 33px 150px auto;
@@ -231,10 +292,10 @@ body > *:not(header){
 #overview article#complicated{
     background-image: url(media/images/complicated.jpg);
 }
-#overview article#complicated p {
+/*#overview article#complicated p {
     margin: 120px auto 100px 33px;
     color: white;
-}
+}*/
 /*
 .overview article#furniture{
     background-image: url(images/mainContent/furniture.jpg);
