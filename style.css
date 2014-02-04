@@ -248,6 +248,12 @@ body > *:not(header){
     background-position:50%;
     background-size: 250%;
 }
+#question > div{
+    background-image: url(media/images/questionbox.jpg);
+    background-repeat: no-repeat;
+    background-position:0%;
+    background-size: 100%;
+}
 
 #kunstgewerbe > a{
     background-image: url(media/images/oberberger-kunstgewerbe.de.png);
