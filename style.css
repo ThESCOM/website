@@ -280,8 +280,8 @@ body > *:not(header){
 #gymnastik > a {
     background-image: url(media/images/ingridoberberger.de.png);
     background-repeat: no-repeat;
-    background-position:45%;
-    background-size: 150%;
+    /*background-position:45%;*/
+    background-size: 100%;
     display: block;
 }
 
@@ -377,7 +377,8 @@ body > *:not(header){
 
 .service-info-box > p {
     position: absolute;
-    width: 500px;
+    width: 450px;
+    max-width: 490px;
     margin-left: 320px;
     padding: 0 1em;
 }
@@ -429,18 +430,24 @@ body > *:not(header){
 }
 
 body > footer img#facebook {
-    position: absolute;
-    margin-left: 450px;
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    height:25px;
 }
 
 body > footer img#twitter {
-    position: absolute;
-    margin-left: 480px;
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    height:25px;
 }
 
 body > footer img#googleplus {
-    position: absolute;
-    margin-left: 510px;
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    height:25px;
 }
 
 /* Button */

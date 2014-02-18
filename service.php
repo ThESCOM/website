@@ -30,6 +30,16 @@
                 </div>
                 <p><mark>Fragen? Unsicher?</mark></p>
             </article>
+            <article class="service-info-box" id="administration">
+                <div>
+                </div>
+                <p><mark>Administration</mark></p>
+            </article>
+            <article class="service-info-box" id="consulting">
+                <div>
+                </div>
+                <p><mark>Administration</mark></p>
+            </article>
         </div>
         <?php include("footer.php") ?>
 
