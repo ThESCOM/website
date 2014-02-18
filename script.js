@@ -17,7 +17,7 @@ slideshow = setInterval(function() {
     if (a==l){
         a=0;
     }
-}, 8000);
+}, 12000);
 
 // Nach 5 Minuten Slideshow beenden
 setTimeout(function() {

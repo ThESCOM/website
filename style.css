@@ -294,7 +294,8 @@ body > *:not(header){
 }
 
 #overview article#encryption{
-    background-image: url(media/images/enigma.jpg);
+    /*background-image: url(media/images/enigma.jpg);*/
+    background-image: url(media/images/verschluesselt.jpg);
     background-repeat: no-repeat;
     background-position:40%;
     background-size: 100%;
@@ -309,7 +310,7 @@ body > *:not(header){
 }
 
 #overview article#complicated{
-    background-image: url(media/images/complicated.jpg);
+    background-image: url(media/images/complicated-snipped.png);
     background-position:40%;
     background-size: 100%;
 }
@@ -376,6 +377,7 @@ body > *:not(header){
 
 .service-info-box > p {
     position: absolute;
+    width: 500px;
     margin-left: 320px;
     padding: 0 1em;
 }

@@ -13,7 +13,7 @@
             <article class="service-info-box" id="vcs">
                 <div>
                 </div>
-                <p><mark>Versionsverwaltung</mark></p>
+                <p>Ich biete Ihnen mehrjährige Erfahrung, sowie Schulungen zur Versionsverwaltung Git.</p>
             </article>
             <article class="service-info-box" id="programmierung">
                 <div>

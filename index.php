@@ -15,12 +15,13 @@
                 aber wie?</mark>
                 Ich helfe Ihnen gerne dabei</p>
             </article>
+
             <article id="complicated">
-            <p>Jedes Projekt/Produkt kommt in der heutigen Zeit nicht mehr um
-            Dinge wie <mark>Ticketsystem</mark>, <mark>Versionsverwaltung</mark>
-            und <mark>Continuous
-            Integration</mark> herum. Ich helfe gerne bei der Auswahl und Konfiguration der richtigen
-            Tools und bei der Findung Ihres Entwicklerworkflows.</p>
+                <p>Jedes Projekt/Produkt kommt in der heutigen Zeit nicht mehr um
+                Dinge wie <mark>Ticketsystem</mark>, <mark>Versionsverwaltung</mark>
+                und <mark>Continuous
+                Integration</mark> herum. Ich biete Ihnen Unterstützung bei der Auswahl
+                sowie der Konfiguration der richtigen Tools.</p>
             </article>
         </div>
         <div>
