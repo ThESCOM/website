@@ -37,7 +37,8 @@ body {
     font-family: 'Arial';
     font-size: 14px;
     /*color: hsl(0,0%,40%);*/
-    color: #00008B;/*hsl(0,4%,30%);*/
+    /*color: #00008B;/*hsl(0,4%,30%);*/*/
+    color: #03426b;
 }
 
 a {
@@ -48,9 +49,13 @@ a:hover {
     color: #1883cb;
 }
 
+article > p a {
+    text-decoration: underline;
+}
+
 mark {
-    /*color: #000;*/
     color: #00008B;
+    /*color: #03426b;*/
     background: none;
     font-weight:bold;
 }
@@ -67,16 +72,26 @@ header .description {
     margin-left: 450px;
     font-size: 13px;
     /*color: #aaa;*/
-    color: #000080;
+    /*color: #000080;*/
+    color: #03426b;
     /*text-shadow: 1px 1px 0 white;*/
-    text-shadow: 1px 1px 0 #ADD8E6;
+    /*text-shadow: 1px 1px 0 #ADD8E6;*/
 }
-header img{
+header > hgroup {
+    position: absolute;
+    background-image: url(media/images/logo.png);
+    height: 100px;
+    background-repeat: no-repeat;
+    /*background-position:40%;*/
+    background-size: 27%;
+}
+header > img {
     position: absolute;
 }
 header h2 {
     margin-left: 100px;
-    color: #000080;
+    /*color: #000080;*/
+    color: #03426b;
 }
 /*header h1, header h2 {
     font-family: 'Droid Serif';
@@ -276,16 +291,16 @@ body > *:not(header){
     background-size: 150%;
 }
 #website > div{
-    background-image: url(media/images/website.png);
+    background-image: url(media/images/lamp.jpg);
     background-repeat: no-repeat;
     background-position:50%;
-    background-size: 250%;
+    background-size: 100%;
 }
 #question > div{
     background-image: url(media/images/questionbox.jpg);
     background-repeat: no-repeat;
     background-position:55%;
-    background-size: 130%;
+    background-size: 140%;
 }
 
 #kunstgewerbe > a{
@@ -351,7 +366,8 @@ body > *:not(header){
     height: auto;
     padding: 1em;
     margin: 70px 33px 150px auto;
-    color: #333;
+    /*color: #333;*/
+    color: #03426b;
     background: white;
 }
 
@@ -419,7 +435,7 @@ body > *:not(header){
 
 .service-info-box {
     width: 800px;
-    height: 180px;
+    height: 150px;
     margin-left: 60px;
 }
 .service-info-box:not(:first-of-type){
@@ -439,9 +455,9 @@ body > *:not(header){
 
 .service-info-box > div {
     width: 300px;
-    height: 180px;
+    height: 150px;
     /*background: #000;*/
-    border-right: 1px solid hsl(0,0%,90%);
+    /*border-right: 1px solid hsl(0,0%,90%);*/
     position: absolute;
 }
 
