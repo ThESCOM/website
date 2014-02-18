@@ -38,12 +38,12 @@
             <article class="info-box" id="resapp">
                 <a href="https://maxoberberger.net/projects/study-reserve-app/">Reservierungs App</a>
                 <p><mark>App zur Reservierung von Stromtankstellen</mark></p>
-                <p>Reservieren, belegen und freigeben von Stromtankstellen.
-                Genauere Beschreibung <mark><a href="https://maxoberberger.net/projects/study-reserve-app/">HIER</a></mark>.</p>
+                <p>Reservieren, belegen und freigeben von Stromtankstellen.</p>
             </article>
             <article class="info-box" id="gymnastik">
                 <a href="http://ingridoberberger.de">Ingrid Oberberger Gymnastik</a>
-                <p><mark>Gymnastiklehrerin Frau Oberberger</mark></p>
+                <p><mark>Gymnastiklehrerin Ingrid Oberberger</mark></p>
+                <p>Alle Informationen rund um die Kurse der Gymnastiklehrerin Ingrid Oberberger</p>
             </article>
         </div>
         <div>

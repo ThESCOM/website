@@ -241,8 +241,8 @@ body > *:not(header){
 #kunstgewerbe > a{
     background-image: url(media/images/oberberger-kunstgewerbe.de.png);
     background-repeat: no-repeat;
-    background-position:40%;
-    background-size: 150%;
+    /*background-position:40%;*/
+    background-size: 100%;
     display: block;
 }
 

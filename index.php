@@ -17,10 +17,10 @@
             </article>
 
             <article id="complicated">
-                <p>Jedes Projekt/Produkt kommt in der heutigen Zeit nicht mehr um
+                <p>Jedes Projekt/Team kommt in der heutigen Zeit nicht mehr um
                 Dinge wie <mark>Ticketsystem</mark>, <mark>Versionsverwaltung</mark>
                 und <mark>Continuous
-                Integration</mark> herum. Ich biete Ihnen Unterstützung bei der Auswahl
+                Integration</mark> herum. <mark>Ich biete</mark> Ihnen Unterstützung bei der Auswahl
                 sowie der Konfiguration der richtigen Tools.</p>
             </article>
         </div>
@@ -28,22 +28,20 @@
             <article class="info-box" id="programming">
                 <div>
                 </div>
-                <p><mark>Programmierung</mark></p><p>individueller
-                Smartphone-Anwendungen, Desktopanwendungen oder Unterstützung
+                <p><mark>Programmierung</mark> individueller
+                Smartphone-Anwendungen, Desktopanwendungen sowie Unterstützung
                 Ihres Teams bei Programmiertätigkeiten.
                 </p>
             </article>
             <article class="info-box" id="website">
                 <div>
                 </div>
-                <p><mark>Webseiten</mark></p><p>Von der Idee ins Internet. Von der
-                Programmierung bis zum Hosting, alles in einer Hand.</p>
+                <p>Von der Idee ins Internet. <mark>Webseiten</mark> von der
+                Programmierung bis zum Hosting, <mark>alles in einer Hand</mark>.</p>
             </article>
             <article class="info-box" id="question">
                 <div>
                 </div>
-                <p><mark>Fragen/Probleme</mark></p><p>Fragen zu Computerproblemen? Auf der Suche nach einem
-                neuen PC/Laptop?</p>
             </article>
         </div>
 
