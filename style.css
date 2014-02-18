@@ -243,9 +243,21 @@ body > *:not(header){
     height: 180px;
     opacity: 0.8;
 }
+#programmierung > div {
+    background-image: url(media/images/Programmierung-logo_10.5-3.0.png);
+    background-repeat: no-repeat;
+    background-position:40%;
+    background-size: 100%;
+}
+#homepage > div {
+    background-image: url(media/images/Website-logo_10.5-3.0.png);
+    background-repeat: no-repeat;
+    background-position:40%;
+    background-size: 100%;
+}
 
 #vcs > div{
-    background-image: url(media/images/git-logo.png);
+    background-image: url(media/images/Versionsverwaltung-logo_10.5-3.0.png);
     background-repeat: no-repeat;
     background-position:40%;
     background-size: 100%;
@@ -396,9 +408,9 @@ body > *:not(header){
 }
 
 .service-info-box {
-    width: 500px;
+    width: 800px;
     height: 180px;
-    margin-left: 150px;
+    margin-left: 60px;
 }
 .service-info-box:not(:first-of-type){
     margin-top: 25px;
@@ -416,7 +428,7 @@ body > *:not(header){
 }
 
 .service-info-box > div {
-    width: 150px;
+    width: 300px;
     height: 180px;
     /*background: #000;*/
     border-right: 1px solid hsl(0,0%,90%);
@@ -425,7 +437,7 @@ body > *:not(header){
 
 .service-info-box > p {
     position: absolute;
-    margin-left: 175px;
+    margin-left: 320px;
     padding: 0 1em;
 }
 
