@@ -3,41 +3,11 @@
 <!-- http://css3-html5.de/html5-workshop-tutorial/ -->
 <!-- font-squirrel: fontsquirrel.com -->
 <html lang="en">
-    <head>
-        <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF8" />-->
-        <!-- Bei HTML 5 nur noch reduziert auf: -->
-        <meta charset="UTF8" />
-        <meta name="keywords" content="Max Oberberger, IT Solution, Apps, Programmierung, Websites, Hosting, Traunstein, Bayern, Informatik, Computer Probleme"/>
-        <meta name="author" content="Max Oberberger"/>
-        <meta name="copyright" content="Max Oberberger"/>
-        <meta name="publisher" content="Max Oberberger"/>
-        <meta name="description" content="Freiberufler Max Oberberger hilft Ihnen bei all Ihren Computerproblemen"/>
-
-        <link rel="shortcut icon" href="media/images/favicon.ico">
-
-        <title>ThESCOM</title>
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </head>
+    <?php include("meta.php") ?>
     <body>
-        <header>
-            <hgroup>
-                <img src="media/images/logo.png" height="100">
-                <!--<h2>ThESCOM</h2>-->
-            </hgroup>
-            <div class="description">
-                <p>Thoroughly Engineering Solutions & Consulting Oberberger
-                Max</p>
-            </div>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="ueber-mich.html">Über mich</a></li>
-                <li><a href="service.html">Service</a></li>
-                <li><a href="referenzen.html">Referenzen</a></li>
-                <li></li>
-            </ul>
-        </nav>
+        <?php include("header.php") ?>
+
+        <?php include("nav.php") ?>
 
 <h1>Impressum</h1><p>Angaben gemäß § 5 TMG:<br/><br/></p>
 <p>B. Sc. Maximilian Oberberger<br />
@@ -120,13 +90,8 @@ durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir
 weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht
 sämtliche Funktionen dieser Website vollumfänglich nutzen können.</p>
 
-        <footer>
-        &copy; 2013 ThESCOM | <a href="impressum.html">Impressum</a>
-        <img src="media/images/facebook.png">
-        <a href="https://twitter.com/chiemseesurfer"><img src="media/images/twitter.png"></a>
-        <img src="media/images/google-plus.png">
-        </footer>
 
+        <?php include("footer.php") ?>
         <script type="text/javascript" src="script.js"></script>
     </body>
 </html>

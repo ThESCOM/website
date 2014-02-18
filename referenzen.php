@@ -3,40 +3,12 @@
 <!-- http://css3-html5.de/html5-workshop-tutorial/ -->
 <!-- font-squirrel: fontsquirrel.com -->
 <html lang="en" class="tut">
-    <head>
-        <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF8" />-->
-        <!-- Bei HTML 5 nur noch reduziert auf: -->
-        <meta charset="UTF8" />
-        <meta name="keywords" content="Max Oberberger, IT Solution, Apps, Programmierung, Websites, Hosting, Traunstein, Bayern, Informatik, Computer Probleme"/>
-        <meta name="author" content="Max Oberberger"/>
-        <meta name="copyright" content="Max Oberberger"/>
-        <meta name="publisher" content="Max Oberberger"/>
-        <meta name="description" content="Freiberufler Max Oberberger hilft Ihnen bei all Ihren Computerproblemen"/>
-
-        <link rel="shortcut icon" href="media/images/favicon.ico">
-
-        <title>ThESCOM</title>
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </head>
+    <?php include("meta.php") ?>
     <body>
-        <header>
-            <hgroup>
-                <img src="media/images/logo.png" height="100">
-            </hgroup>
-            <div class="description">
-                <p>Thoroughly Engineering Solutions & Consulting Oberberger
-                Max</p>
-            </div>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="ueber-mich.html">Über mich</a></li>
-                <li><a href="service.html">Service</a></li>
-                <li><a href="referenzen.html">Referenzen</a></li>
-                <li></li>
-            </ul>
-        </nav>
+        <?php include("header.php") ?>
+
+        <?php include("nav.php") ?>
+
         <div>
             <article class="info-box" id="kunstgewerbe">
                 <a href="http://oberberger-kunstgewerbe.de">Kunstgewerbe</a>
@@ -53,22 +25,21 @@
                 <a href="http://karoec.de">Karoec</a>
                 <p><mark>Webauftritt Eishockeyclub Großkarolinenfeld</mark></p>
                 <p>Der EHC-Großkarolinenfeld hostet seine Webseite bei mir und
-                wird von mir als Administrator betreut.</p>
+                wird als Administrator betreut.</p>
             </article>
         </div>
         <div>
             <article class="info-box" id="lis-dns">
                 <a href="http://www.linux-ag.com/news/551/129/d,LIS-Detail/">LIS-DNS</a>
                 <p><mark>DNS Plugin der CMC2</mark></p>
-                <p>Anstatt umständlich über die Konsole, können DNS-Einträge
-                komfortabel über den Browser eingegeben werden. (Quelle: <a
+                <p>DNS-Einträge komfortabel über den Browser eingeben. (Quelle: <a
                     href="http://www.linux-ag.com/news/551/129/d,LIS-Detail/">Firmenbrief</a>)</p>
             </article>
             <article class="info-box" id="resapp">
                 <a href="https://maxoberberger.net/projects/study-reserve-app/">Reservierungs App</a>
                 <p><mark>App zur Reservierung von Stromtankstellen</mark></p>
-                <p>Reservieren, Belegen, Freigeben von Stromtankstellen.
-                Genauere Beschreibung <a href="https://maxoberberger.net/projects/study-reserve-app/">HIER</a>.</p>
+                <p>Reservieren, belegen und freigeben von Stromtankstellen.
+                Genauere Beschreibung <mark><a href="https://maxoberberger.net/projects/study-reserve-app/">HIER</a></mark>.</p>
             </article>
             <article class="info-box" id="gymnastik">
                 <a href="http://ingridoberberger.de">Ingrid Oberberger Gymnastik</a>
@@ -91,14 +62,8 @@
                 <p></p>
             </article>
         </div>
-        <footer>
-            <p>&copy; 2013 ThESCOM | <a href="impressum.html">Impressum</a>
-            <img id="facebook" src="media/images/facebook.png">
-            <a href="https://twitter.com/chiemseesurfer"><img id="twitter" src="media/images/twitter.png"></a>
-            <img id="googleplus" src="media/images/google-plus.png">
-            </p>
-        </footer>
 
+        <?php include("footer.php") ?>
         <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
