@@ -13,7 +13,7 @@
             <article class="service-info-box" id="vcs">
                 <div>
                 </div>
-                <p>Ich biete Ihnen mehrjährige Erfahrung, sowie Schulungen zur Versionsverwaltung Git.</p>
+                <p><mark>Git, SVN, Mercurial, ...</mark> Es gibt etliche Versionsverwaltungen. Ich biete Ihnen Unterstützung bei der Auswahl der optimalen Versionsverwaltung für Ihr Projekt/Team.<br /><br /> Ebenfalls biete Ich Ihnen Schulungen/Einführungen für Ihr Team zur gewählten Versionsverwaltung.</p>
             </article>
             <article class="service-info-box" id="programmierung">
                 <div>
@@ -23,7 +23,7 @@
             <article class="service-info-box" id="homepage">
                 <div>
                 </div>
-                <p><mark>Website</mark></p>
+                <p>Ich biete Ihnen die Erstellung einer individuell auf Sie abgestimmten Website. Auf Wunsch erhalten Sie ein CMS im Hintergrund um Inhalte selbst ändern zu können.<br /><br />Sollten Sie sich dafür entscheiden, die Website auf meinen Systemen zu hosten, ist ein Backup der Websitedaten inklusive.</p>
             </article>
             <article class="service-info-box" id="question">
                 <div>
@@ -38,7 +38,7 @@
             <article class="service-info-box" id="consulting">
                 <div>
                 </div>
-                <p><mark>Administration</mark></p>
+                <p><mark>Beratung</mark></p>
             </article>
         </div>
         <?php include("footer.php") ?>
