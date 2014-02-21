@@ -377,8 +377,8 @@ body > *:not(header){
 
 .service-info-box > p {
     position: absolute;
-    width: 450px;
-    max-width: 490px;
+    width: 400px;
+    max-width: 450px;
     margin-left: 320px;
     padding: 0 1em;
 }
