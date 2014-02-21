@@ -40,6 +40,11 @@
                 </div>
                 <p><mark>Beratung</mark></p>
             </article>
+            <article class="service-info-box" id="verschluesselung">
+                <div>
+                </div>
+                <p><mark>Verschlüsselung</mark></p>
+            </article>
         </div>
         <?php include("footer.php") ?>
 

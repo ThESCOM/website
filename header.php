@@ -4,8 +4,8 @@
     </hgroup>
         <!--<img src="media/images/transparent.png" height="100" width="200">-->
     <div class="description">
-        <p>Thoroughly Engineering Solutions & Consulting Oberberger
-        Max</p>
+        <p><span style="color: #03426b;">Thoroughly Engineering Solutions &</span> <span style="color: #1eadfe;">Consulting</span> <span style="color: #0ccb03;">Oberberger
+        Max</span></p>
     </div>
 </header>
 
