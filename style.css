@@ -395,6 +395,7 @@ body > *:not(header){
 .service-info-box > div {
     width: 200px;
     height: 150px;
+    margin-left: -50px;
     position: absolute;
 }
 
@@ -407,7 +408,7 @@ body > *:not(header){
 }
 .service-info-box > h4 {
     position: absolute;
-    margin-left:150px;
+    margin-left:100px;
     margin-top: 60px;
     font-size: 18px;
     font-weight: bold;
