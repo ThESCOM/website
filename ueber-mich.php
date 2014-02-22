@@ -12,7 +12,12 @@
         <div id="private">
             <article class="info-box-horizontal">
             <div id="info-box-horizontal-description">
-                <p>Name: <mark>Max Oberberger</mark></p>
+                <p><mark>Name:</mark> Max Oberberger</p>
+                <p><mark>Abschluss:</mark> Bachelor of Science (FH-Rosenheim)</p>
+                <h3>Projekthistorie</h3>
+                <ul>
+                    <li></li>
+                </ul>
             </div>
             <div>
                 <img src="media/images/portrait.jpg">

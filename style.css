@@ -196,26 +196,49 @@ body > *:not(header){
     opacity: 0.8;
 }
 
-#programmierung > div {
-    background-image: url(media/images/Programmierung-logo_10.5-3.0.png);
+#programmierung > div, #verschluesselung > div {
+    /*background-image: url(media/images/Programmierung-logo_10.5-3.0.png);*/
+    background-image: url(media/images/puzzle-green.png);
     background-repeat: no-repeat;
-    background-position:50%;
-    background-size: 110%;
+    background-position:33%;
+    background-size: 45%;
 }
 
-#homepage > div {
-    background-image: url(media/images/Website-logo_10.5-3.0.png);
+#homepage > div, #unterstuetzung > div{
+    /*background-image: url(media/images/Website-logo_10.5-3.0.png);*/
+    background-image: url(media/images/puzzle-light-blue.png);
     background-repeat: no-repeat;
-    background-position:20%;
-    background-size: 105%;
+    background-position:47%;
+    background-size: 44%;
 }
 
-#vcs > div{
-    background-image: url(media/images/Versionsverwaltung-logo_10.5-3.0.png);
+#vcs > div, #administration > div{
+    /*background-image: url(media/images/Versionsverwaltung-logo_10.5-3.0.png);*/
+    background-image: url(media/images/puzzle-dark-blue.png);
+    background-repeat: no-repeat;
+    background-position:40%;
+    background-size: 40%;
+}
+
+/*#unterstuetzung > div{
+    background-image: url(media/images/unterstuetzung_10.5-3.0.png);
     background-repeat: no-repeat;
     background-position:40%;
     background-size: 100%;
-}
+}*/
+
+/*#administration > div{
+    background-image: url(media/images/administration_10.5-3.0.png);
+    background-repeat: no-repeat;
+    background-position:40%;
+    background-size: 100%;
+}*/
+/*#verschluesselung > div{
+    background-image: url(media/images/verschluesselung_10.5-3.0.png);
+    background-repeat: no-repeat;
+    background-position:120%;
+    background-size: 105%;
+}*/
 
 #programming > div{
     background-image: url(media/images/keyboard.jpg);
@@ -350,7 +373,7 @@ body > *:not(header){
 }
 
 .service-info-box {
-    width: 800px;
+    width: 700px;
     height: 150px;
     margin-left: 60px;
 }
@@ -370,17 +393,33 @@ body > *:not(header){
 }
 
 .service-info-box > div {
-    width: 300px;
+    width: 200px;
     height: 150px;
     position: absolute;
 }
 
 .service-info-box > p {
     position: absolute;
-    width: 400px;
+    width: 500px;
     max-width: 450px;
     margin-left: 320px;
     padding: 0 1em;
+}
+.service-info-box > h4 {
+    position: absolute;
+    margin-left:150px;
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-info-box .green {
+    color: #0ccb03;
+}
+.service-info-box .light-blue{
+    color: #1eadfe;
+}
+.service-info-box .blue {
+    color: #03426b;
 }
 
 .info-box {

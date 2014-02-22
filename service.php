@@ -13,37 +13,38 @@
             <article class="service-info-box" id="vcs">
                 <div>
                 </div>
+                <h4 class="blue">Versionsverwaltung</h4>
                 <p><mark>Git, SVN, Mercurial, ...</mark> Es gibt etliche Versionsverwaltungen. Ich biete Ihnen Unterstützung bei der Auswahl der optimalen Versionsverwaltung für Ihr Projekt/Team.<br /><br /> Ebenfalls biete Ich Ihnen Schulungen/Einführungen für Ihr Team zur gewählten Versionsverwaltung.</p>
             </article>
             <article class="service-info-box" id="programmierung">
                 <div>
                 </div>
+                <h4 class="green">Programmierung</h4>
                 <p><mark>Programmierung</mark></p>
             </article>
             <article class="service-info-box" id="homepage">
                 <div>
                 </div>
+                <h4 class="light-blue">Website</h4>
                 <p>Ich biete Ihnen die Erstellung einer individuell auf Sie abgestimmten Website. Auf Wunsch erhalten Sie ein CMS im Hintergrund um Inhalte selbst ändern zu können.<br /><br />Sollten Sie sich dafür entscheiden, die Website auf meinen Systemen zu hosten, ist ein Backup der Websitedaten inklusive.</p>
-            </article>
-            <article class="service-info-box" id="question">
-                <div>
-                </div>
-                <p><mark>Fragen? Unsicher?</mark></p>
             </article>
             <article class="service-info-box" id="administration">
                 <div>
                 </div>
+                <h4 class="blue">Administration</h4>
                 <p><mark>Administration</mark></p>
-            </article>
-            <article class="service-info-box" id="consulting">
-                <div>
-                </div>
-                <p><mark>Beratung</mark></p>
             </article>
             <article class="service-info-box" id="verschluesselung">
                 <div>
                 </div>
+                <h4 class="green">Verschlüsselung</h4>
                 <p><mark>Verschlüsselung</mark></p>
+            </article>
+            <article class="service-info-box" id="unterstuetzung">
+                <div>
+                </div>
+                <h4 class="light-blue">Unterstützung</h4>
+                <p><mark>Fragen? Unsicher?</mark></p>
             </article>
         </div>
         <?php include("footer.php") ?>
