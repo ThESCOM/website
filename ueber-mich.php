@@ -15,9 +15,20 @@
                 <p><mark>Name:</mark> Max Oberberger</p>
                 <p><mark>Abschluss:</mark> Bachelor of Science (FH-Rosenheim)</p>
                 <h3>Projekthistorie</h3>
-                <ul>
-                    <li></li>
-                </ul>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Zeitraum</th>
+                        <th>Tätigkeit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>2013 - 2014</td>
+                        <td>Zu tun</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div>
                 <img src="media/images/portrait.jpg">
@@ -39,38 +50,6 @@
             </div>
             </article>
         </div>
-        <!--<div id="private">
-        </div>
-        <section id="customer-opinions">
-            <img src="media/images/portrait.jpg">
-            <p>Ich heiße Max Oberberger und bin Freiberufler (Freelancer) in der
-            IT-Branche.</p>
-
-            <p>Ich bin Bachelor der Informatik und studiere im Moment an der
-            Hochschule Rosenheim meinen Master of Science der Informatik.</p>
-
-            <h4>Ich verfüge über:</h4>
-            <ul>
-                <li>mehrjährige Erfahrung als Systemadministrator
-                mit Linux-Betriebssystemen</li>
-                <li>3 Jahre Erfahrung Python-Entwicklung</li>
-                <li>2 Jahre Erfahrung in der Virtualisierung mit kvm, drbd und
-                lvm</li>
-                <li>Über 1 Jahr Erfahrung mit Client- und Serverkonfiguration durch
-                CFEngine2</li>
-            </ul>
-            -->
-
-            <!--<footer>
-                Posted on: <time datetime="2013-12-30" pubdate>30. December 2013</time>
-            </footer>
-            -->
-        <!--</section>
-        -->
-        <!--<iframe
-            src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Ai7a8NJzkyfcdE9QQmZKTHFsNGJyc1laOXY5TjhKVEE&font=Bevan-PotanoSans&maptype=TERRAIN&lang=en&height=650'
-            width='100%' height='650' frameborder='0'></iframe>
-        -->
 
         <?php include("footer.php") ?>
         <script type="text/javascript" src="script.js"></script>
