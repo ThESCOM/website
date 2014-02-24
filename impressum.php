@@ -30,6 +30,11 @@ Victoriaplatz 2<br />
 <p>Geltungsraum der Versicherung: Deutschland</p>
 <p> </p>
 
+<h2>Quellenangaben für die Verwendeten Bilder und Grafiken:</h2>
+<ul>
+    <li>Chris Potter -- http://www.flickr.com/photos/86530412@N02/11484777313/</li>
+</ul>
+
 <h2>Haftungsausschluss:</h2>
 <p><strong>Haftung für Inhalte</strong></p> <p>Die Inhalte unserer Seiten wurden
 mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und
