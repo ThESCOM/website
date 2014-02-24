@@ -11,7 +11,8 @@
 
         <div id="overview">
             <article id="encryption">
-                <p>Datensicherheit wird immer wichtiger. <mark>Daten verschlüsseln
+                <p>Datensicherheit wird immer wichtiger. Ob für das eigene
+                Backup, Email oder die eigene Website. <mark>Daten verschlüsseln
                 aber wie?</mark> Ich helfe Ihnen gerne dabei.<br /><br /><a href="service.php#verschluesselung">Mehr Informationen ></a></p>
             </article>
 
@@ -19,8 +20,9 @@
                 <p>Jedes Projekt/Team kommt in der heutigen Zeit nicht mehr um
                 Dinge wie <mark>Ticketsystem</mark>, <mark>Versionsverwaltung</mark>
                 und <mark>Continuous
-                Integration</mark> herum. <mark>Ich biete</mark> Ihnen Unterstützung bei der Auswahl
-                sowie der Konfiguration der richtigen Tools. <br /><br /><a href="service.php#vcs">Mehr Informationen ></a></p>
+                Integration</mark> herum. Auf dem Markt gibt es eine Vielzahl an
+                unterschiedlichen Programmen. <mark>Ich biete</mark> Ihnen Unterstützung bei der Auswahl
+                sowie der Konfiguration der für Sie richtigen Tools. <br /><br /><a href="service.php#vcs">Mehr Informationen ></a></p>
             </article>
         </div>
         <div>
