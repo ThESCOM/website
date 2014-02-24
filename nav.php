@@ -5,9 +5,5 @@
         <li style="background-color: #0ccb03;"><a href="service.php">Service</a></li>
         <li><a href="referenzen.php">Referenzen</a></li>
         <li></li>
-        <!--<li></li>
-        -->
-        <!--<li><input type="search" placeholder="Search this site"></li>
-        -->
     </ul>
 </nav>

@@ -182,6 +182,7 @@ body > *:not(header){
     width: 100%;
     height: 400px;
     font-size: 13px;
+
     /* Uebergang zwischen den einzelnen Artikeln */
     -webkit-transition: opacity 1.5s;
     -moz-transition: opacity 1.5s;
@@ -197,7 +198,6 @@ body > *:not(header){
 }
 
 #programmierung > div, #verschluesselung > div {
-    /*background-image: url(media/images/Programmierung-logo_10.5-3.0.png);*/
     background-image: url(media/images/puzzle-green.png);
     background-repeat: no-repeat;
     background-position:33%;
@@ -205,7 +205,6 @@ body > *:not(header){
 }
 
 #homepage > div, #unterstuetzung > div{
-    /*background-image: url(media/images/Website-logo_10.5-3.0.png);*/
     background-image: url(media/images/puzzle-light-blue.png);
     background-repeat: no-repeat;
     background-position:47%;
@@ -213,32 +212,11 @@ body > *:not(header){
 }
 
 #vcs > div, #administration > div{
-    /*background-image: url(media/images/Versionsverwaltung-logo_10.5-3.0.png);*/
     background-image: url(media/images/puzzle-dark-blue.png);
     background-repeat: no-repeat;
     background-position:40%;
     background-size: 40%;
 }
-
-/*#unterstuetzung > div{
-    background-image: url(media/images/unterstuetzung_10.5-3.0.png);
-    background-repeat: no-repeat;
-    background-position:40%;
-    background-size: 100%;
-}*/
-
-/*#administration > div{
-    background-image: url(media/images/administration_10.5-3.0.png);
-    background-repeat: no-repeat;
-    background-position:40%;
-    background-size: 100%;
-}*/
-/*#verschluesselung > div{
-    background-image: url(media/images/verschluesselung_10.5-3.0.png);
-    background-repeat: no-repeat;
-    background-position:120%;
-    background-size: 105%;
-}*/
 
 #programming > div{
     background-image: url(media/images/keyboard.jpg);
@@ -264,7 +242,6 @@ body > *:not(header){
 #kunstgewerbe > a{
     background-image: url(media/images/oberberger-kunstgewerbe.de.png);
     background-repeat: no-repeat;
-    /*background-position:40%;*/
     background-size: 100%;
     display: block;
 }
@@ -303,7 +280,6 @@ body > *:not(header){
 #gymnastik > a {
     background-image: url(media/images/ingridoberberger.de.png);
     background-repeat: no-repeat;
-    /*background-position:45%;*/
     background-size: 100%;
     display: block;
 }
@@ -311,13 +287,11 @@ body > *:not(header){
 #hboot > a {
     background-image: url(media/images/hboot.de.png);
     background-repeat: no-repeat;
-    /*background-position:40%;*/
     display: block;
     background-size: 100%;
 }
 
 #overview article#encryption{
-    /*background-image: url(media/images/enigma.jpg);*/
     background-image: url(media/images/verschluesselt.jpg);
     background-repeat: no-repeat;
     background-position:40%;

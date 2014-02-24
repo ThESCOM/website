@@ -6,11 +6,6 @@ var articles = document.querySelectorAll("#overview > article"), a = 0, l = arti
 // Interval 4000 = alle 4 sec rufe Funktion auf
 slideshow = setInterval(function() {
     for (i = 0; i < l; i++) {
-        /*if (i == a) {
-            articles[i].style.opacity = 1;
-        } else {
-            articles[i].style.opacity = 0;
-        }*/
         articles[i].style.opacity = i==a ? 1 : 0;
     }
     a++;
