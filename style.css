@@ -314,7 +314,7 @@ body > *:not(header){
 
 .info-box-horizontal {
     width: 800px;
-    height: 380px;
+    height: 950px;
 }
 
 .info-box-horizontal > div > img {
@@ -326,7 +326,7 @@ body > *:not(header){
 }
 
 .info-box-horizontal #info-box-horizontal-description {
-    height: 200px;
+    height: 800px;
     width: 250px;
     position: absolute;
     padding: 0 1em;
@@ -340,6 +340,10 @@ body > *:not(header){
     position: absolute;
     padding: 0 1em;
     margin-left: 480px;
+}
+
+.info-box-horizontal #info-box-horizontal-description ul{
+    margin-left: -25px;
 }
 
 .info-box-horizontal #info-box-horizontal-information ul{
