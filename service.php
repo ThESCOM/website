@@ -20,19 +20,19 @@
                 <div>
                 </div>
                 <h4 class="green">Programmierung</h4>
-                <p><mark>Programmierung</mark></p>
+                <p>Ich biete Ihnen <mark>Programmierung</mark> individueller Smartphone-Anwendungen, Desktopanwendungen, sowie Verstärkung Ihres Entwicklerteams bei Programmieraufgaben.</p>
             </article>
             <article class="service-info-box" id="homepage">
                 <div>
                 </div>
                 <h4 class="light-blue">Website</h4>
-                <p>Ich biete Ihnen die Erstellung einer individuell auf Sie abgestimmten Website. Auf Wunsch erhalten Sie ein CMS im Hintergrund um Inhalte selbst ändern zu können.<br /><br />Sollten Sie sich dafür entscheiden, die Website auf meinen Systemen zu hosten, ist ein Backup der Websitedaten inklusive.</p>
+                <p>Ich biete Ihnen die <mark>Erstellung einer individuell auf Sie abgestimmten Website</mark>. Auf Wunsch erhalten Sie ein CMS im Hintergrund um Inhalte selbst ändern zu können.<br /><br />Sollten Sie sich dafür entscheiden, die Website auf meinen Systemen zu hosten, ist ein Backup der Websitedaten inklusive.</p>
             </article>
             <article class="service-info-box" id="administration">
                 <div>
                 </div>
                 <h4 class="blue">Administration</h4>
-                <p><mark>Administration</mark></p>
+                <p><mark>Sie benötigen einen Administrator für Ihre Website, Ihre Serversysteme?</mark> Ich biete Ihnen meine mehrjährige Erfahrung als Administrator mit den unterschiedlichsten Websiten und Serversystemen (Ubuntu, SuSE, Windows).</p>
             </article>
             <article class="service-info-box" id="verschluesselung">
                 <div>

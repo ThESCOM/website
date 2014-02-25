@@ -33,6 +33,7 @@ Victoriaplatz 2<br />
 <h2>Quellenangaben für die Verwendeten Bilder und Grafiken:</h2>
 <ul>
     <li>Chris Potter -- http://www.flickr.com/photos/86530412@N02/11484777313/</li>
+    <li>Dennis Skley -- http://www.flickr.com/photos/dskley/6933017322/</li>
 </ul>
 
 <h2>Haftungsausschluss:</h2>

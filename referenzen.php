@@ -50,13 +50,14 @@
             <article class="info-box" id="hboot">
                 <a href="http://hboot.karoec.de">HBoot-Flotte Chiemsee</a>
                 <p><mark>Webauftritt der HBoot-Flotte Chiemsee</mark></p>
+                <p>Die HBoot-Flotte hostet Ihre Webseite bei mir und wird als Administrator betreut.</p>
             </article>
-            <article class="info-box">
+            <article class="info-box-empty">
                 <div>
                 </div>
                 <p></p>
             </article>
-            <article class="info-box">
+            <article class="info-box-empty">
                 <div>
                 </div>
                 <p></p>

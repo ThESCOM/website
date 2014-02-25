@@ -12,8 +12,8 @@
         <div id="overview">
             <article id="encryption">
                 <p>Datensicherheit wird immer wichtiger. Ob für das eigene
-                Backup, Email oder die eigene Website. <mark>Daten verschlüsseln
-                aber wie?</mark> Ich helfe Ihnen gerne dabei.<br /><br /><a href="service.php#verschluesselung">Mehr Informationen ></a></p>
+                Backup, Email oder die Website. <mark>Ich helfe Ihnen gerne bei der Verschlüsselung Ihrer Daten!</mark>
+                <br /><br /><a href="service.php#verschluesselung">Mehr Informationen ></a></p>
             </article>
 
             <article id="complicated">

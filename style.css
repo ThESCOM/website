@@ -3,6 +3,15 @@
  * Hellblau: 1eadfe
  * Dunkelblau: 03426b
  * Gruen: 0ccb03
+ *
+ * Rotation:
+ * http://answers.oreilly.com/topic/1004-how-to-rotate-an-image-with-css/
+ * Grad | BasicImageFilter
+ * 0    | 0
+ * 90   | 1
+ * 180  | 2
+ * 270  | 3
+ *
  */
 @font-face {
     font-weight: normal;
@@ -27,9 +36,9 @@ a {
     color: inherit;
     text-decoration: inherit;
 }
-a:hover {
+/*a:hover {
     color: #1883cb;
-}
+}*/
 
 article > p a {
     text-decoration: underline;
@@ -50,7 +59,7 @@ header .description {
     text-align: right;
     width: 330px;
     padding-top: 18px;
-    margin-left: 450px;
+    margin-left: 470px;
     font-size: 13px;
     color: #03426b;
 }
@@ -201,21 +210,31 @@ body > *:not(header){
     background-image: url(media/images/puzzle-green.png);
     background-repeat: no-repeat;
     background-position:33%;
-    background-size: 45%;
+    background-size: 63%;
+    margin-left:-117px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 #homepage > div, #unterstuetzung > div{
     background-image: url(media/images/puzzle-light-blue.png);
     background-repeat: no-repeat;
     background-position:47%;
-    background-size: 44%;
+    background-size: 60%;
+    margin-left:-100px;
 }
 
 #vcs > div, #administration > div{
     background-image: url(media/images/puzzle-dark-blue.png);
     background-repeat: no-repeat;
-    background-position:40%;
-    background-size: 40%;
+    background-position:50%;
+    background-size: 58%;
+    margin-left:-100px;
+    margin-top: -10px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 #programming > div{
@@ -227,9 +246,10 @@ body > *:not(header){
 
 #website > div{
     background-image: url(media/images/lamp.jpg);
+    /*background-image: url(media/images/website.png);*/
     background-repeat: no-repeat;
-    background-position:50%;
-    background-size: 100%;
+    background-position:10%;
+    background-size: 250%;
 }
 
 #question > div{
@@ -314,7 +334,7 @@ body > *:not(header){
 
 .info-box-horizontal {
     width: 800px;
-    height: 950px;
+    height: 1000px;
 }
 
 .info-box-horizontal > div > img {
@@ -386,7 +406,7 @@ body > *:not(header){
 }
 .service-info-box > h4 {
     position: absolute;
-    margin-left:100px;
+    margin-left:70px;
     margin-top: 60px;
     font-size: 18px;
     font-weight: bold;
@@ -399,6 +419,22 @@ body > *:not(header){
 }
 .service-info-box .blue {
     color: #03426b;
+}
+
+.info-box-empty {
+    width: 250px;
+    height: 350px;
+}
+.info-box-empty:nth-of-type(2) {
+    margin-left: 25px;
+}
+
+.info-box-empty:not(:last-of-type) {
+    float: left;
+}
+
+.info-box-empty:last-of-type {
+    margin-left: 550px;
 }
 
 .info-box {
