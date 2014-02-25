@@ -169,7 +169,8 @@ nav, .info-box, .service-info-box, .info-box-horizontal, body > iframe, .info-bo
 
 /*.gray-border {*/
 nav, #overview, .info-box, body > footer {
-    border: 1px solid #B3B3B3;
+    /*border: 1px solid #B3B3B3;*/
+    border: 1px solid #03426b;
 }
 
 /*.space-top {*/
