@@ -328,7 +328,8 @@ body > *:not(header){
 }
 
 #overview article#complicated{
-    background-image: url(media/images/complicated-snipped.png);
+    /*background-image: url(media/images/complicated-snipped.png);*/
+    background-image: url(media/images/complicated-new.jpg);
     background-position:40%;
     background-size: 100%;
 }

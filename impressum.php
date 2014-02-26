@@ -34,6 +34,7 @@ Victoriaplatz 2<br />
 <ul>
     <li>Chris Potter -- http://www.flickr.com/photos/86530412@N02/11484777313/</li>
     <li>Dennis Skley -- http://www.flickr.com/photos/dskley/6933017322/</li>
+    <li>Heinrich-Böll-Stiftung -- https://www.flickr.com/photos/boellstiftung/6149917239</li>
 </ul>
 
 <h2>Haftungsausschluss:</h2>
