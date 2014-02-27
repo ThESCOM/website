@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http://new.thescom.de$ [NC]
-RewriteRule \.(jpg|JPG|png)$ /media/images/transparent.png [R,L]
