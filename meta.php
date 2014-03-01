@@ -11,6 +11,6 @@
 
     <link rel="shortcut icon" href="media/images/favicon.ico">
 
-    <title>ThESCOM</title>
+    <title>ThESCOM - Thoroughly Engineering Solutions & Consulting Oberberger Max</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
