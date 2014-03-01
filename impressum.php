@@ -32,9 +32,11 @@ Victoriaplatz 2<br />
 
 <h2>Quellenangaben für die Verwendeten Bilder und Grafiken:</h2>
 <ul>
-    <li>Chris Potter -- http://www.flickr.com/photos/86530412@N02/11484777313/</li>
-    <li>Dennis Skley -- http://www.flickr.com/photos/dskley/6933017322/</li>
-    <li>Heinrich-Böll-Stiftung -- https://www.flickr.com/photos/boellstiftung/6149917239</li>
+    <li><a href="https://www.flickr.com/photos/86530412@N02/11484777313/">Chris Potter</a> (<a href="index.php#encryption">Verschlüsselung</a>)</li>
+    <li><a href="https://www.flickr.com/photos/dskley/6933017322/">Dennis Skley</a> (<a href="index.php#website">Glühbirne</a>)</li>
+    <li><a href="https://www.flickr.com/photos/boellstiftung/6149917239">Heinrich-Böll-Stiftung</a> (<a href="index.php#complicated">Schilderwald</a>) </li>
+    <li><a href="https://www.flickr.com/photos/24285431@N04/2375499336/in/photolist-4BV4c7-dmYAr-sJzC-o32n-eGVDo-5Pi84h-d419W-d3Zxx-5cxb6-3pte4P-7aBSQb-37ZYg-6j1BUT-2YwUzm-49sN6T-9A8uFb-bYZkUh-cbt27N-7pU98r-dTfy6n-7av6N-tusEy-y4rSS-8WC5mw-iv3cq-9CdHnr-C2Uv1-b9Dkez-Juvce-v4gy-7Y1Equ-9WSjvm-y37az-83FkJ5-ccXiM-8md3Yj-5i4mzv-gFaDR-3rVZSJ-7vo6pK-4LZgbt-7GFCH4-7UjJXa-41xp8a-3eozEv-4G4huN-Dxff-butoT-3KizN-7bNZYS-569niC">Shane Pope</a> (<a href="index.php#programming">Tastatur</a>) </li>
+    <li><a href="https://www.flickr.com/photos/f-oxymoron/9647972522/">Raymond Bryson</a> (<a href="index.php#question">Fragezeichenbox</a>) </li>
 </ul>
 
 <h2>Haftungsausschluss:</h2>
