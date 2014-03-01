@@ -37,13 +37,13 @@
             <article class="info-box" id="website">
                 <div>
                 </div>
-                <p>Von der Idee ins Internet. <mark>Webseiten</mark> von der
+                <p><mark>Von der Idee ins Internet. Webseiten</mark> von der
                 Programmierung bis zum Hosting, <mark>alles in einer Hand</mark>.<br /><br /><br /><a href="service.php#homepage">Mehr Informationen ></a></p>
             </article>
             <article class="info-box" id="question">
                 <div>
                 </div>
-                <p><mark>Sie benötigen Hilfe</mark> bei der Auswahl eines neuen Computers oder generell Hilfe bei EDV Angelegenheiten?<br /><br /><br /><a href="service.php#question">Mehr Informationen ></a></p>
+                <p><mark>Sie benötigen Hilfe</mark> bei der Auswahl eines neuen Computers oder generell Hilfe bei EDV Angelegenheiten?<br /><br /><br /><a href="service.php#unterstuetzung">Mehr Informationen ></a></p>
             </article>
         </div>
 
