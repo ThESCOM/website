@@ -159,18 +159,19 @@ nav, .info-box, .service-info-box, .info-box-horizontal, body > iframe, .info-bo
 
 /*.border-top-radius {*/
 .info-box > div, .info-box > a, body > footer {
-    border-top-left-radius: 6px;
-    -moz-border-top-left-radius: 6px;
-    -webkit-border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    -moz-border-top-right-radius: 6px;
-    -webkit-border-top-right-radius: 6px;
+    border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
 }
 
 /*.gray-border {*/
 nav, #overview, .info-box, body > footer {
     /*border: 1px solid #B3B3B3;*/
-    border: 1px solid #03426b;
+    /*border: 1px solid #03426b;*/
+    border: 1px solid #1eadfe;
 }
 
 /*.space-top {*/
@@ -336,40 +337,57 @@ body > *:not(header){
 
 .info-box-horizontal {
     width: 800px;
-    height: 1000px;
+    height: 300px;
+}
+
+#projekthistory {
+    -webkit-column-width: 260px;
+    -webkit-column-gap: 25px;
+    -khtml-column-width: 260px;
+    -khtml-column-gap: 25px;
+    -moz-column-width: 260px;
+    -moz-column-gap: 25px;
+    -o-column-width: 260px;
+    -o-column-gap: 25px;
+    -ms-column-width: 260px;
+    -ms-column-gap: 25px;
+    column-width: 260px;
+    column-gap: 25px;
 }
 
 .info-box-horizontal > div > img {
-    height: 200px;
+    /*height: 200px;*/
+    width:175px;
     border-bottom: 1px solid hsl(0,0%,90%);
-    margin-left:5px;
+    /*margin-left:5px;*/
+    margin-left:-14px;
     margin-top: 15px;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .info-box-horizontal #info-box-horizontal-description {
-    height: 800px;
-    width: 250px;
+    height: 500px;
+    width: 450px;
     position: absolute;
     padding: 0 1em;
-    margin-left: 180px;
-    margin-top: 10px;
+    margin-left: 217px;
+    /*margin-top: 5px;*/
 }
 
 .info-box-horizontal #info-box-horizontal-information{
     height: 200px;
-    width: 250px;
+    width: 180px;
     position: absolute;
     padding: 0 1em;
-    margin-left: 480px;
+    /*margin-left: 480px;*/
 }
 
-.info-box-horizontal #info-box-horizontal-description ul{
+.info-box-horizontal #info-box-horizontal-description ul, .info-box-horizontal #info-box-horizontal-information ul, #projekthistory > ul{
     margin-left: -25px;
 }
 
-.info-box-horizontal #info-box-horizontal-information ul{
-    margin-left: -25px;
+#projekthistory > ul {
+    margin-top: -0px;
 }
 
 .service-info-box {

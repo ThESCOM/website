@@ -15,7 +15,27 @@
                 <p><mark>Name:</mark> Max Oberberger</p>
                 <p><mark>Abschluss:</mark> Bachelor of Science (FH-Rosenheim)</p>
                 <p><mark>Geburtsdatum:</mark> 10.02.1988</p>
-                <h3>Projekthistorie</h3>
+                <h4>Ich verfüge über:</h4>
+                <ul>
+                    <li>mehrjährige Erfahrung als
+                    <mark>Systemadministrator</mark>
+                    mit Linux-Betriebssystemen</li>
+                    <li>3 Jahre Erfahrung <mark>Python-Entwicklung</mark></li>
+                    <li>2 Jahre Erfahrung in der Virtualisierung mit kvm, drbd und
+                    lvm</li>
+                    <li>Über 1 Jahr Erfahrung mit Client- und Serverkonfiguration durch
+                    CFEngine2</li>
+                    <li>Über 1 Jahr Erfahrung mit <mark>Client- und
+                    Serverkonfiguration durch puppet</mark></li>
+                </ul>
+            </div>
+            <div id="info-box-horizontal-information">
+                <img src="media/images/portrait.jpg">
+            </div>
+            </article>
+            <article>
+            <h3>Projekte</h3>
+            <div id="projekthistory">
                 <ul>
                     <li><mark>09/13 - 11/13 (Elektroniksystem- und Logistik-GmbH)</mark>
                         <ul>
@@ -42,6 +62,8 @@
                         </ul>
                     </li>
                     <br />
+                    <br />
+                    <br />
                     <li><mark>03/12 - 07/12 (FH-Rosenheim)</mark>
                         <ul>
                             <li>Android App (erideaResApp) für das reservieren, buchen und belegen von Stromtankstellen im Auftrag der Eridea</li>
@@ -65,24 +87,6 @@
                             <li>Integration und Programmierung des Steuerknüppels für einen Kampfjetsimulator (Programmiersprachen: C, C++ -- Hardwarenahe Programmierung)</li>
                         </ul>
                     </li>
-            </div>
-            <div>
-                <img src="media/images/portrait.jpg">
-            </div>
-            <div id="info-box-horizontal-information">
-                <h4>Ich verfüge über:</h4>
-                <ul>
-                    <li>mehrjährige Erfahrung als
-                    <mark>Systemadministrator</mark>
-                    mit Linux-Betriebssystemen</li>
-                    <li>3 Jahre Erfahrung <mark>Python-Entwicklung</mark></li>
-                    <li>2 Jahre Erfahrung in der Virtualisierung mit kvm, drbd und
-                    lvm</li>
-                    <li>Über 1 Jahr Erfahrung mit Client- und Serverkonfiguration durch
-                    CFEngine2</li>
-                    <li>Über 1 Jahr Erfahrung mit <mark>Client- und
-                    Serverkonfiguration durch puppet</mark></li>
-                </ul>
             </div>
             </article>
         </div>
