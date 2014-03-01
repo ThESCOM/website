@@ -299,6 +299,13 @@ body > *:not(header){
     display: block;
 }
 
+#arduino > a {
+    background-image: url(media/images/sensor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
 #gymnastik > a {
     background-image: url(media/images/ingridoberberger.de.png);
     background-repeat: no-repeat;

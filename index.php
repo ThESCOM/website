@@ -21,8 +21,8 @@
                 Dinge wie <mark>Ticketsystem</mark>, <mark>Versionsverwaltung</mark>
                 und <mark>Continuous
                 Integration</mark> herum. Auf dem Markt gibt es eine Vielzahl an
-                unterschiedlichen Programmen. <mark>Ich biete</mark> Ihnen Unterstützung bei der Auswahl
-                sowie der Konfiguration der für Sie richtigen Tools. <br /><br /><a href="service.php#vcs">Mehr Informationen ></a></p>
+                unterschiedlichen Programmen. <mark>Ich biete</mark> Ihnen <mark>Unterstützung bei der Auswahl
+                sowie der Konfiguration</mark> der für Sie passenden Tools. <br /><br /><a href="service.php#vcs">Mehr Informationen ></a></p>
             </article>
         </div>
         <div>

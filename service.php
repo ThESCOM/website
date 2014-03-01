@@ -26,25 +26,25 @@
                 <div>
                 </div>
                 <h4 class="light-blue">Website</h4>
-                <p>Ich biete Ihnen die <mark>Erstellung einer individuell auf Sie abgestimmten Website</mark>. Auf Wunsch erhalten Sie ein CMS im Hintergrund um Inhalte selbst ändern zu können.<br /><br />Sollten Sie sich dafür entscheiden, die Website auf meinen Systemen zu hosten, ist ein Backup der Websitedaten inklusive.</p>
+                <p>Ich biete Ihnen die <mark>Erstellung einer individuell auf Sie abgestimmten Website</mark>. Auf Wunsch erhalten Sie ein CMS (<a href="http://de.wikipedia.org/wiki/Content-Management-System">Content Management System</a>) im Hintergrund um Inhalte selbst ändern zu können.<br /><br />Sollten Sie sich dafür entscheiden, die Website auf meinen Systemen zu hosten, ist ein Backup der Daten der Website inklusive.</p>
             </article>
             <article class="service-info-box" id="administration">
                 <div>
                 </div>
                 <h4 class="blue">Administration</h4>
-                <p><mark>Sie benötigen einen Administrator für Ihre Website, Ihre Serversysteme?</mark> Ich biete Ihnen meine mehrjährige Erfahrung als Administrator mit den unterschiedlichsten Websiten und Serversystemen (Ubuntu, SuSE, Windows).</p>
+                <p><mark>Sie benötigen einen Administrator für Ihre Website, Ihre Server-/Rechnersysteme?</mark> Ich biete Ihnen meine mehrjährige Erfahrung als Administrator mit den unterschiedlichsten Websiten und Betriebssystemen (Ubuntu, SuSE, Windows).<br /><br />Sollten Sie für Ihre Rechnersysteme auf der Suche nach Konfigurationsmanagementsystemen sein, biete ich Ihnen meine langjährige Erfahrung mit CFEngine und Puppet, um eine optimale Lösung herbeizuführen.</p>
             </article>
             <article class="service-info-box" id="verschluesselung">
                 <div>
                 </div>
                 <h4 class="green">Verschlüsselung</h4>
-                <p><mark>Verschlüsselung</mark></p>
+                <p>Ich biete Ihnen den ganzen Weg <mark>von Informationen über die Möglichkeiten der Verschlüsselung bis hin zur wirklichen Verschlüsselung Ihrer Daten</mark>. Unter Daten verstehe ich in diesem Zusammenhang unter anderem Email, Backup, ganze Festplatten, Website.</p>
             </article>
             <article class="service-info-box" id="unterstuetzung">
                 <div>
                 </div>
                 <h4 class="light-blue">Unterstützung</h4>
-                <p><mark>Fragen? Unsicher?</mark></p>
+                <p><mark>Sie benötigen allgemein Hilfe</mark> bei EDV-Tätigkeiten oder technischen Dingen? Ich biete Ihnen <mark>Unterstützung bei Ihren Fragen und Problemen</mark>.</p>
             </article>
         </div>
         <?php include("footer.php") ?>
