@@ -167,8 +167,11 @@ nav, .info-box, .service-info-box, .info-box-horizontal, body > iframe, .info-bo
     -webkit-border-top-right-radius: 4px;
 }
 
+nav {
+    border: 1px solid transparent;
+}
 /*.gray-border {*/
-nav, #overview, .info-box, body > footer {
+#overview, .info-box, body > footer {
     /*border: 1px solid #B3B3B3;*/
     /*border: 1px solid #03426b;*/
     border: 1px solid #1eadfe;
