@@ -151,11 +151,13 @@ nav, .info-box, body > footer {
 }
 
 /*.border-radius {*/
-nav, .info-box, .service-info-box, .info-box-horizontal, body > iframe, .info-box-horizontal > div > img, #service-overview, #overview, #overview > article p, #overview > #encryption, #overview > #complicated{
+nav, .info-box, .info-box-horizontal, body > iframe, .info-box-horizontal > div > img, #service-overview, #overview, #overview > article p, #overview > #encryption, #overview > #complicated{
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
 }
+
+.service-info-box
 
 /*.border-top-radius {*/
 .info-box > div, .info-box > a, body > footer {
@@ -217,6 +219,7 @@ body > *:not(header){
     background-position:33%;
     background-size: 61%;
     margin-left:-119px;
+    margin-top: -10px;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
@@ -228,6 +231,7 @@ body > *:not(header){
     background-position:47%;
     background-size: 58%;
     margin-left:-103px;
+    margin-top: -10px;
 }
 
 #vcs > div, #administration > div{
@@ -236,7 +240,7 @@ body > *:not(header){
     background-position:50%;
     background-size: 52%;
     margin-left:-105px;
-    margin-top: -10px;
+    margin-top: -15px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
@@ -412,6 +416,7 @@ body > *:not(header){
 
 .service-info-box:not(:last-of-type) {
     float: top;
+    border-bottom: 1px solid #B3B3B3;
 }
 
 #app > div{
@@ -432,12 +437,13 @@ body > *:not(header){
     width: 500px;
     max-width: 400px;
     margin-left: 266px;
+    margin-top: -10px;
     padding: 0 1em;
 }
 .service-info-box > h4 {
     position: absolute;
     margin-left:70px;
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 18px;
     font-weight: bold;
 }
