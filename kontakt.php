@@ -16,14 +16,6 @@
             <p><mark>Name:</mark> Max Oberberger</p>
             <p><mark>Email:</mark> max@thescom.de</p>
             <p><mark>Tel:</mark> +49 17625687735</p>
-<!--
-            <form>
-                <p><input type="text" name="Titel"/></p>
-                <p><input type="email" id="email_addr" name="email_addr" pattern='[a-z0-9!#$%&'*+/=?^_`{|}~.-]+@[a-z0-9-]+(\.[a-z0-9-]+)*' required/></p>
-                <p><textarea rows="4" cols="40"></textarea></p>
-                <input type="submit" value="Submit">
-            </form>
--->
 
 <form action="http://thescom.de/cgi-bin/selfmail.pl" method="post">
     <input type="hidden" name="return" value="http://new.thescom.de/kontakt.php">
