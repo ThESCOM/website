@@ -55,7 +55,7 @@
             <article class="info-box" id="gymnastik">
                 <a href="http://ingridoberberger.de">Ingrid Oberberger Gymnastik</a>
                 <p><mark>Gymnastiklehrerin Ingrid Oberberger</mark></p>
-                <p>Alle Informationen rund um die Kurse der Gymnastiklehrerin Ingrid Oberberger</p>
+                <p>Alle Informationen rund um die Kurse der staatlich geprüften Gymnastiklehrerin Ingrid Oberberger</p>
             </article>
             <article class="info-box-empty">
                 <div>
