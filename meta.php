@@ -9,7 +9,7 @@
     <meta name="description" content="Freiberufler Max Oberberger hilft Ihnen bei all Ihren Computerproblemen"/>
     <meta http-equiv="imagetoolbar" content="no">
 
-    <link rel="shortcut icon" href="media/images/favicon.ico">
+    <link rel="shortcut icon" href="/media/images/favicon.ico">
 
     <title>ThESCOM - Thoroughly Engineering Solutions & Consulting Oberberger Max</title>
     <link href="media/css/style.css" rel="stylesheet" type="text/css">
