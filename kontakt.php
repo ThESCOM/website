@@ -22,17 +22,13 @@
     <input type="hidden" name="delimiter" value=": ">
     <input type="hidden" name="subject" value="Feedback-Formular">
 
-    <label>* Name:</label>
-    <input type="text" id="full_name" name="full_name" placeholder="Name" required>
+    <input type="text" id="full_name" name="full_name" placeholder="Name*" required oninvalid="this.setCustomValidity('Bitte geben Sie Ihren Namen ein')">
 
-    <label>* Emailadresse:</label>
-    <input type="email" id="email_addr" name="email_addr" required>
+    <input type="email" id="email_addr" name="email_addr" placeholder="Email*" required>
 
-    <label>* Betreff:</label>
-    <input type="text" id="title" name="title" placeholder="Betreff" required>
+    <input type="text" id="title" name="title" placeholder="Betreff*" required oninvalid="this.setCustomValidity('Bitte geben Sie einen Betreff ein')">
 
-    <label>* Text:</label>
-    <textarea rows="4" cols="40"></textarea>
+    <textarea rows="4" cols="40" placeholder="Nachricht*" required oninvalid="this.setCustomValidity('Bitte geben Sie eine Nachricht ein')"></textarea>
 
     <input type="submit" value="Absenden" />
 </form>
