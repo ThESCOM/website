@@ -49,6 +49,5 @@
         </div>
         <?php include("footer.php") ?>
 
-        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>

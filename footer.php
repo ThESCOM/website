@@ -5,3 +5,5 @@
     <a href="https://google.com/+ThescomDeTS" target="_blank"><img id="googleplus" src="media/images/Google plus.png"></a>
     </p>
 </footer>
+
+<script type="text/javascript" src="media/js/script.js"></script>

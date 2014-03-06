@@ -101,6 +101,5 @@ sämtliche Funktionen dieser Website vollumfänglich nutzen können.</p>
 
 
         <?php include("footer.php") ?>
-        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
