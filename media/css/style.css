@@ -351,6 +351,11 @@ body > *:not(header){
 
 .info-box-horizontal {
     width: 800px;
+    height: 300px;
+}
+
+.contact-box {
+    width: 800px;
     height: 410px;
 }
 

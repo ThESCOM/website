@@ -11,7 +11,7 @@
 
         <div id="private">
 
-            <article class="info-box-horizontal">
+            <article class="contact-box">
             <h4>Kontaktieren Sie mich</h4>
             <p><mark>Name:</mark> Max Oberberger</p>
             <p><mark>Email:</mark> max@thescom.de</p>
