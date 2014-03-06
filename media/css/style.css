@@ -66,7 +66,7 @@ header .description {
 
 header > hgroup {
     position: absolute;
-    background-image: url(media/images/logo.png);
+    background-image: url(/media/images/logo.png);
     height: 100px;
     background-repeat: no-repeat;
     background-size: 27%;
@@ -214,7 +214,7 @@ body > *:not(header){
 }
 
 #programmierung > div, #verschluesselung > div {
-    background-image: url(media/images/puzzle-green.png);
+    background-image: url(/media/images/puzzle-green.png);
     background-repeat: no-repeat;
     background-position:33%;
     background-size: 61%;
@@ -226,7 +226,7 @@ body > *:not(header){
 }
 
 #homepage > div, #unterstuetzung > div{
-    background-image: url(media/images/puzzle-light-blue.png);
+    background-image: url(/media/images/puzzle-light-blue.png);
     background-repeat: no-repeat;
     background-position:47%;
     background-size: 58%;
@@ -235,7 +235,7 @@ body > *:not(header){
 }
 
 #vcs > div, #administration > div{
-    background-image: url(media/images/puzzle-dark-blue.png);
+    background-image: url(/media/images/puzzle-dark-blue.png);
     background-repeat: no-repeat;
     background-position:50%;
     background-size: 52%;
@@ -247,14 +247,14 @@ body > *:not(header){
 }
 
 #programming > div{
-    background-image: url(media/images/keyboard.jpg);
+    background-image: url(/media/images/keyboard.jpg);
     background-repeat: no-repeat;
     background-position:40%;
     background-size: 150%;
 }
 
 #website > div{
-    background-image: url(media/images/lamp.jpg);
+    background-image: url(/media/images/lamp.jpg);
     /*background-image: url(media/images/website.png);*/
     background-repeat: no-repeat;
     background-position:10%;
@@ -262,21 +262,21 @@ body > *:not(header){
 }
 
 #question > div{
-    background-image: url(media/images/questionbox.jpg);
+    background-image: url(/media/images/questionbox.jpg);
     background-repeat: no-repeat;
     background-position:55%;
     background-size: 140%;
 }
 
 #kunstgewerbe > a{
-    background-image: url(media/images/oberberger-kunstgewerbe.de.png);
+    background-image: url(/media/images/oberberger-kunstgewerbe.de.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: block;
 }
 
 #blog > a{
-    background-image: url(media/images/maxoberberger.net.png);
+    background-image: url(/media/images/maxoberberger.net.png);
     background-repeat: no-repeat;
     background-position:50%;
     background-size: 170%;
@@ -284,7 +284,7 @@ body > *:not(header){
 }
 
 #karoec > a {
-    background-image: url(media/images/karoec.de.png);
+    background-image: url(/media/images/karoec.de.png);
     background-repeat: no-repeat;
     background-position:50%;
     background-size: 120%;
@@ -292,7 +292,7 @@ body > *:not(header){
 }
 
 #lis-dns > a {
-    background-image: url(media/images/cmc2-dns-plugin.png);
+    background-image: url(/media/images/cmc2-dns-plugin.png);
     background-repeat: no-repeat;
     background-position:5%;
     background-size: 125%;
@@ -300,35 +300,35 @@ body > *:not(header){
 }
 
 #resapp > a {
-    background-image: url(media/images/resApp.png);
+    background-image: url(/media/images/resApp.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: block;
 }
 
 #arduino > a {
-    background-image: url(media/images/sensor.png);
+    background-image: url(/media/images/sensor.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: block;
 }
 
 #gymnastik > a {
-    background-image: url(media/images/ingridoberberger.de.png);
+    background-image: url(/media/images/ingridoberberger.de.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: block;
 }
 
 #hboot > a {
-    background-image: url(media/images/hboot.de.png);
+    background-image: url(/media/images/hboot.de.png);
     background-repeat: no-repeat;
     display: block;
     background-size: 100%;
 }
 
 #overview article#encryption{
-    background-image: url(media/images/verschluesselt.jpg);
+    background-image: url(/media/images/verschluesselt.jpg);
     background-repeat: no-repeat;
     background-position:40%;
     background-size: 100%;
@@ -343,8 +343,8 @@ body > *:not(header){
 }
 
 #overview article#complicated{
-    /*background-image: url(media/images/complicated-snipped.png);*/
-    background-image: url(media/images/complicated-new.jpg);
+    /*background-image: url(/media/images/complicated-snipped.png);*/
+    background-image: url(/media/images/complicated-new.jpg);
     background-position:40%;
     background-size: 100%;
 }
@@ -420,7 +420,7 @@ body > *:not(header){
 }
 
 #app > div{
-    background-image: url(media/images/app-icon.png);
+    background-image: url(/media/images/app-icon.png);
     background-repeat: no-repeat;
     background-position: 10%
 }
