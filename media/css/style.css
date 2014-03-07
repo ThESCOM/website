@@ -83,7 +83,36 @@ hgroup {
     float: left;
 }
 
+/*border-radius*/
+nav, .info-box, .info-box-horizontal, body > iframe, .info-box-horizontal > div > img, #service-overview, #overview, #overview > article p, #overview > #encryption, #overview > #complicated{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+/*border-top-radius*/
+.info-box > div, .info-box > a, body > footer {
+    border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+}
+
+#overview, .info-box, body > footer {
+    border: 1px solid #1eadfe;
+}
+
+body > *:not(header){
+    margin-top: 30px;
+}
+
+
 /* Navigation */
+nav {
+    background: #03426b;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -141,6 +170,7 @@ nav #nav-green {
     background-color: #0ccb03;
 }
 
+/* footer */
 body > footer {
     width: 100%;
     padding: 30px;
@@ -157,40 +187,29 @@ body > footer p {
     margin-bottom: 0;
 }
 
-nav {
-    background: #03426b;
-    /*border: 1px solid transparent;*/
+body > footer img#facebook {
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    height:25px;
 }
-/*.gray-gradient {*/
-.info-box, body > footer {
+
+body > footer img#twitter {
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    height:25px;
+}
+
+body > footer img#googleplus {
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    height:25px;
+}
+
+.info-box, body > footer, input[type=submit] {
     background: #1eadfe;
-}
-
-/*.border-radius {*/
-nav, .info-box, .info-box-horizontal, body > iframe, .info-box-horizontal > div > img, #service-overview, #overview, #overview > article p, #overview > #encryption, #overview > #complicated{
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-}
-
-/*.border-top-radius {*/
-.info-box > div, .info-box > a, body > footer {
-    border-top-left-radius: 4px;
-    -moz-border-top-left-radius: 4px;
-    -webkit-border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    -moz-border-top-right-radius: 4px;
-    -webkit-border-top-right-radius: 4px;
-}
-
-/*.gray-border {*/
-#overview, .info-box, body > footer {
-    border: 1px solid #1eadfe;
-}
-
-/*.space-top {*/
-body > *:not(header){
-    margin-top: 30px;
 }
 
 /* Slideshow */
@@ -222,37 +241,62 @@ body > *:not(header){
     opacity: 0.8;
 }
 
-#programmierung > div, #verschluesselung > div {
-    background-image: url(/media/images/puzzle-green.png);
-    background-repeat: no-repeat;
-    background-position:33%;
-    background-size: 61%;
-    margin-left:-119px;
-    margin-top: -10px;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+#overview article p {
+    height: auto;
+    padding: 1em;
+    margin: 70px 33px 150px auto;
+    color: #03426b;
+    background: white;
 }
 
-#homepage > div, #unterstuetzung > div{
-    background-image: url(/media/images/puzzle-light-blue.png);
+#overview article#encryption{
+    background-image: url(/media/images/verschluesselt.jpg);
     background-repeat: no-repeat;
-    background-position:47%;
-    background-size: 58%;
-    margin-left:-103px;
-    margin-top: -10px;
+    background-position:40%;
+    background-size: 100%;
 }
 
-#vcs > div, #administration > div{
-    background-image: url(/media/images/puzzle-dark-blue.png);
-    background-repeat: no-repeat;
-    background-position:50%;
-    background-size: 52%;
-    margin-left:-105px;
-    margin-top: -15px;
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+#overview article#complicated{
+    background-image: url(/media/images/complicated-new.jpg);
+    background-position:40%;
+    background-size: 100%;
+}
+
+/* startseite boxen */
+.info-box, .info-box-empty {
+    width: 250px;
+    height: 350px;
+}
+
+.info-box:nth-of-type(2), .info-box-empty:nth-of-type(2) {
+    margin-left: 25px;
+}
+
+.info-box:not(:last-of-type), .info-box-empty:not(:last-of-type) {
+    float: left;
+}
+
+.info-box:last-of-type, .info-box-empty:last-of-type {
+    margin-left: 550px;
+}
+
+.info-box > a{
+    width: 100%;
+    height: 200px;
+    background: #000;
+    border-bottom: 1px solid hsl(0,0%,90%);
+    text-indent: -9999px;
+}
+
+.info-box > div {
+    width: 100%;
+    height: 200px;
+    background: #000;
+    border-bottom: 1px solid hsl(0,0%,90%);
+}
+
+.info-box > p {
+    padding: 0 1em;
 }
 
 #programming > div{
@@ -276,6 +320,7 @@ body > *:not(header){
     background-size: 140%;
 }
 
+/* referenzen */
 #kunstgewerbe > a{
     background-image: url(/media/images/oberberger-kunstgewerbe.de.png);
     background-repeat: no-repeat;
@@ -335,35 +380,10 @@ body > *:not(header){
     background-size: 100%;
 }
 
-#overview article#encryption{
-    background-image: url(/media/images/verschluesselt.jpg);
-    background-repeat: no-repeat;
-    background-position:40%;
-    background-size: 100%;
-}
-
-#overview article p {
-    height: auto;
-    padding: 1em;
-    margin: 70px 33px 150px auto;
-    color: #03426b;
-    background: white;
-}
-
-#overview article#complicated{
-    background-image: url(/media/images/complicated-new.jpg);
-    background-position:40%;
-    background-size: 100%;
-}
-
+/* ueber-mich */
 .info-box-horizontal {
     width: 800px;
     height: 300px;
-}
-
-.contact-box {
-    width: 800px;
-    height: 410px;
 }
 
 #projekthistory {
@@ -396,7 +416,7 @@ body > *:not(header){
     margin-left: 212px;
 }
 
-.info-box-horizontal #info-box-horizontal-information{
+.info-box-horizontal #info-box-horizontal-information {
     height: 200px;
     width: 180px;
     position: absolute;
@@ -411,25 +431,44 @@ body > *:not(header){
     margin-top: -0px;
 }
 
+/* services */
+#programmierung > div, #verschluesselung > div {
+    background-image: url(/media/images/puzzle-green.png);
+    background-repeat: no-repeat;
+    background-position:33%;
+    background-size: 61%;
+    margin-left:-119px;
+    margin-top: -10px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+#homepage > div, #unterstuetzung > div{
+    background-image: url(/media/images/puzzle-light-blue.png);
+    background-repeat: no-repeat;
+    background-position:47%;
+    background-size: 58%;
+    margin-left:-103px;
+    margin-top: -10px;
+}
+
+#vcs > div, #administration > div{
+    background-image: url(/media/images/puzzle-dark-blue.png);
+    background-repeat: no-repeat;
+    background-position:50%;
+    background-size: 52%;
+    margin-left:-105px;
+    margin-top: -15px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
 .service-info-box {
     width: 700px;
-    height: 150px;
+    height: 170px;
     margin-left: 60px;
-}
-
-.service-info-box:not(:first-of-type){
-    margin-top: 25px;
-}
-
-.service-info-box:not(:last-of-type) {
-    float: top;
-    border-bottom: 1px solid #B3B3B3;
-}
-
-#app > div{
-    background-image: url(/media/images/app-icon.png);
-    background-repeat: no-repeat;
-    background-position: 10%
 }
 
 .service-info-box > div {
@@ -447,6 +486,7 @@ body > *:not(header){
     margin-top: -10px;
     padding: 0 1em;
 }
+
 .service-info-box > h4 {
     position: absolute;
     margin-left:70px;
@@ -454,66 +494,38 @@ body > *:not(header){
     font-size: 18px;
     font-weight: bold;
 }
-.service-info-box .green {
+
+.service-info-box:not(:first-of-type){
+    margin-top: 25px;
+}
+
+.service-info-box:not(:last-of-type) {
+    float: top;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+#unterstuetzung > p, #programmierung > p {
+    margin-top: 38px;
+}
+
+#verschluesselung > p {
+    margin-top: 22px;
+}
+
+#vcs > p {
+    margin-top: 13px;
+}
+
+#programmierung > h4, #verschluesselung > h4 {
     color: #0ccb03;
 }
-.service-info-box .light-blue{
+
+#homepage > h4, #unterstuetzung > h4{
     color: #1eadfe;
 }
-.service-info-box .blue {
+
+#vcs > h4, #administration > h4 {
     color: #03426b;
-}
-
-.info-box-empty {
-    width: 250px;
-    height: 350px;
-}
-.info-box-empty:nth-of-type(2) {
-    margin-left: 25px;
-}
-
-.info-box-empty:not(:last-of-type) {
-    float: left;
-}
-
-.info-box-empty:last-of-type {
-    margin-left: 550px;
-}
-
-.info-box {
-    width: 250px;
-    height: 350px;
-}
-
-.info-box:nth-of-type(2) {
-    margin-left: 25px;
-}
-
-.info-box:not(:last-of-type) {
-    float: left;
-}
-
-.info-box:last-of-type {
-    margin-left: 550px;
-}
-
-.info-box > a{
-    width: 100%;
-    height: 200px;
-    background: #000;
-    border-bottom: 1px solid hsl(0,0%,90%);
-    text-indent: -9999px;
-}
-
-.info-box > div {
-    width: 100%;
-    height: 200px;
-    background: #000;
-    border-bottom: 1px solid hsl(0,0%,90%);
-}
-
-.info-box > p {
-    padding: 0 1em;
 }
 
 /* Spalten */
@@ -526,29 +538,14 @@ body > *:not(header){
     column-gap: 25px;
 }
 
-body > footer img#facebook {
-    position: relative;
-    float: right;
-    margin-right: 5px;
-    height:25px;
-}
-
-body > footer img#twitter {
-    position: relative;
-    float: right;
-    margin-right: 5px;
-    height:25px;
-}
-
-body > footer img#googleplus {
-    position: relative;
-    float: right;
-    margin-right: 5px;
-    height:25px;
+/* Kontakt */
+.contact-box {
+    width: 800px;
+    height: 410px;
 }
 
 form {
-    width:300px;
+    width: 300px;
     margin-left: 350px;
     position: absolute;
     margin-top: -124px;
@@ -573,6 +570,5 @@ input, textarea {
 }
 
 input[type=submit] {
-    background: #1eadfe;
     padding:10px;
 }
