@@ -99,7 +99,6 @@ durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir
 weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht
 sämtliche Funktionen dieser Website vollumfänglich nutzen können.</p>
 
-
         <?php include("footer.php") ?>
     </body>
 </html>
