@@ -18,7 +18,7 @@
             <p><mark>Tel:</mark> +49 17625687735</p>
 
 <form action="http://thescom.de/cgi-bin/selfmail.pl" method="post">
-    <input type="hidden" name="return" value="http://new.thescom.de/kontakt.php">
+    <input type="hidden" name="return" value="http://thescom.de/kontakt.php">
     <input type="hidden" name="delimiter" value=": ">
     <input type="hidden" name="subject" value="Feedback-Formular">
 
@@ -28,7 +28,7 @@
 
     <input type="text" id="title" name="title" placeholder="Betreff*" required oninvalid="this.setCustomValidity('Bitte geben Sie einen Betreff ein')">
 
-    <textarea rows="4" cols="40" placeholder="Nachricht*" required oninvalid="this.setCustomValidity('Bitte geben Sie eine Nachricht ein')"></textarea>
+    <textarea rows="4" cols="40" id="message" placeholder="Nachricht*" required oninvalid="this.setCustomValidity('Bitte geben Sie eine Nachricht ein')"></textarea>
 
     <input type="submit" value="Absenden" />
 </form>
