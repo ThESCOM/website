@@ -28,7 +28,7 @@
 
     <input type="text" id="title" name="title" placeholder="Betreff*" required oninvalid="this.setCustomValidity('Bitte geben Sie einen Betreff ein')">
 
-    <textarea rows="4" cols="40" id="message" placeholder="Nachricht*" required oninvalid="this.setCustomValidity('Bitte geben Sie eine Nachricht ein')"></textarea>
+    <textarea type="text" name="message" rows="4" cols="40" id="message" placeholder="Nachricht*" required oninvalid="this.setCustomValidity('Bitte geben Sie eine Nachricht ein')"></textarea>
 
     <input type="submit" value="Absenden" />
 </form>
