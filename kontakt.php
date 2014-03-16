@@ -17,7 +17,7 @@
             <p><mark>Email:</mark> max@thescom.de</p>
             <p><mark>Tel:</mark> +49 17625687735</p>
 
-<form action="http://thescom.de/cgi-bin/selfmail.pl" method="post">
+<form action="http://maxoberberger.net/cgi-bin/selfmail.pl" method="post">
     <input type="hidden" name="return" value="http://thescom.de/kontakt.php">
     <input type="hidden" name="delimiter" value=": ">
     <input type="hidden" name="subject" value="Feedback-Formular">
