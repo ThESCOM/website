@@ -44,7 +44,7 @@
             <article class="info-box" id="arduino">
                 <a href="http://maxoberberger.net/projects/arduino-weatherstation/">Wetterstation</a>
                 <p><mark>Arduino Wetterstation mit Android Widget</mark></p>
-                <p>Luftdruck, Temperatur, Luftfeuchtigkeit, Windgeschw., Windrichtung und Niederschlags-Messungen mit grafischer Aufbereitung auf dem Smartphone</p>
+                <p>Anzeige und grafische Aufbereitung von Messdaten einer Wetterstation auf Basis des Arduino Mikrokontrollers. Widget im <a href="https://play.google.com/store/apps/details?id=weather.widget">Google Play Store.</a></p>
             </article>
         </div>
         <div>
