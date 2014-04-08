@@ -14,6 +14,7 @@
             <div id="info-box-horizontal-description">
                 <p><mark>Name:</mark> Max Oberberger</p>
                 <p><mark>Abschluss:</mark> Bachelor of Science (FH-Rosenheim)</p>
+                <p><mark>Abschlussarbeit:</mark> Entwurf und Implementierung einer Schnittstelle zur Kopplung virtueller Avionik-Systeme.</p>
                 <p><mark>Geburtsdatum:</mark> 10.02.1988</p>
                 <h4>Ich verfüge über:</h4>
                 <ul>
