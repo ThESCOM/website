@@ -17,14 +17,16 @@
                 <p><mark>Geburtsdatum:</mark> 10.02.1988</p>
                 <h4>Ich verfüge über:</h4>
                 <ul>
+                    <li>Realisierung von drei Android-Smartphone-Apps (Google Play Store unter Entwicklername chiemseesurfer / Klaus Mauritz)</li>
                     <li>mehrjährige Erfahrung als
                     <mark>Systemadministrator</mark>
                     mit Linux-Betriebssystemen</li>
-                    <li>3 Jahre Erfahrung <mark>Python-Entwicklung</mark></li>
+                    <li>Tiefgreifende Erfahrung mit der <mark>Versionsverwaltung Git</mark></li>
+                    <!--<li>3 Jahre Erfahrung <mark>Python-Entwicklung</mark></li>
                     <li>2 Jahre Erfahrung in der Virtualisierung mit kvm, drbd und
-                    lvm</li>
-                    <li>Über 1 Jahr Erfahrung mit Client- und Serverkonfiguration durch
-                    CFEngine2</li>
+                    lvm</li>-->
+                    <!--<li>Über 1 Jahr Erfahrung mit Client- und Serverkonfiguration durch
+                    CFEngine2</li>-->
                     <li>Über 1 Jahr Erfahrung mit <mark>Client- und
                     Serverkonfiguration durch puppet</mark></li>
                 </ul>
@@ -37,6 +39,29 @@
             <h3>Projekte</h3>
             <div id="projekthistory">
                 <ul>
+                    <li><mark>09/13 - Heute (Klaus Mauritz)</mark>
+                        <ul>
+                            <li>Programmierung der Android App BewusstlosE (siehe Referenzen)</li>
+                            <li> Fehlerbehebung in der iOS App BewusstlosE</li>
+                        </ul>
+                    </li>
+                    <br />
+                    <li><mark>10/13 - 03/14 (HBoot Flotte Chiemsee-Simssee)</mark>
+                        <ul>
+                            <li>Redesign des Webauftritt</li>
+                            <li>Implementierung eines eigenen Joomla-Layouts</li>
+                            <li>Bereitstellung des Webauftritt</li>
+                        </ul>
+                    </li>
+                    <br />
+                    <li><mark>12/13 - 03/14 (Linux Information Systems AG)</mark>
+                        <ul>
+                            <li>Webentwicklung mit Django</li>
+                            <li>Programmierung von Python Scripten</li>
+                            <li>Client-/Serverkonfiguration mit Cfengine2/Puppet</li>
+                        </ul>
+                    </li>
+                    <br />
                     <li><mark>09/13 - 11/13 (Elektroniksystem- und Logistik-GmbH)</mark>
                         <ul>
                             <li>Systemadministrator SuSE</li>
@@ -49,7 +74,7 @@
                     <br />
                     <li><mark>03/13 - 08/13 (Linux Information Systems AG)</mark>
                         <ul>
-                            <li>Webentwicklugn mit Django</li>
+                            <li>Webentwicklung mit Django</li>
                             <li>Firefox-Plugin Entwicklung</li>
                             <li>OPSI-Paketierung</li>
                             <li>Client-/Serverkonfiguration mit Cfengine2</li>
@@ -61,8 +86,6 @@
                             <li>Wetterstation auf Android-Basis mit externer Server Anbindung und Android-Widget zur Sensor-Darstellung</li>
                         </ul>
                     </li>
-                    <br />
-                    <br />
                     <br />
                     <li><mark>03/12 - 07/12 (FH-Rosenheim)</mark>
                         <ul>
