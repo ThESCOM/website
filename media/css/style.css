@@ -385,6 +385,12 @@ body > footer img#googleplus {
     display: block;
     background-size: 100%;
 }
+#iliostherm > a {
+    background-image: url(/media/images/iliostherm.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 100%;
+}
 
 /* ueber-mich */
 .info-box-horizontal {
