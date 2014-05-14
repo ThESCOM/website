@@ -391,6 +391,12 @@ body > footer img#googleplus {
     display: block;
     background-size: 100%;
 }
+#bpview > a {
+    background-image: url(/media/images/bpview-dashboard.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 200%;
+}
 
 /* ueber-mich */
 .info-box-horizontal {
@@ -444,7 +450,7 @@ body > footer img#googleplus {
 }
 
 /* services */
-#programmierung > div, #verschluesselung > div {
+#programmierung > div, #konfigurationsmanagement > div {
     background-image: url(/media/images/puzzle-green.png);
     background-repeat: no-repeat;
     background-position:33%;
@@ -456,7 +462,7 @@ body > footer img#googleplus {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
-#homepage > div, #unterstuetzung > div{
+#homepage > div, #verschluesselung > div {
     background-image: url(/media/images/puzzle-light-blue.png);
     background-repeat: no-repeat;
     background-position:47%;
@@ -465,7 +471,7 @@ body > footer img#googleplus {
     margin-top: -10px;
 }
 
-#vcs > div, #administration > div{
+#vcs > div, #administration > div, #unterstuetzung > div {
     background-image: url(/media/images/puzzle-dark-blue.png);
     background-repeat: no-repeat;
     background-position:50%;
@@ -479,7 +485,7 @@ body > footer img#googleplus {
 
 .service-info-box {
     width: 700px;
-    height: 170px;
+    height: 180px;
     margin-left: 60px;
 }
 
@@ -520,6 +526,10 @@ body > footer img#googleplus {
     margin-top: 38px;
 }
 
+#konfigurationsmanagement > p {
+    margin-top: 20px;
+}
+
 #verschluesselung > p {
     margin-top: 22px;
 }
@@ -528,15 +538,18 @@ body > footer img#googleplus {
     margin-top: 13px;
 }
 
-#programmierung > h4, #verschluesselung > h4 {
+/* Green */
+#programmierung > h4, #konfigurationsmanagement > h4 {
     color: #0ccb03;
 }
 
-#homepage > h4, #unterstuetzung > h4{
+/* light blue */
+#homepage > h4, #verschluesselung > h4 {
     color: #1eadfe;
 }
 
-#vcs > h4, #administration > h4 {
+/* dark blue */
+#vcs > h4, #administration > h4, #unterstuetzung > h4 {
     color: #03426b;
 }
 

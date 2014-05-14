@@ -37,13 +37,35 @@
             </div>
             </article>
             <article>
-            <h3>Projekte</h3>
+            <h3>Projekte (Laufzeit ab 2 Monate)</h3>
             <div id="projekthistory">
                 <ul>
+                    <li><mark>03/14 - Heute (Linuxland Österreich / Ovido.at)</mark>
+                        <ul>
+                            <li>Unterstützung des Entwicklerteams bei der Weiterentwicklung des "Business Process Dashboard for Monitoring Environments (BPView)"</li>
+                            <li>Entwicklung einer API für den bpviewd (Daemon)</li>
+                        </ul>
+                    </li>
+                    <br />
+                    <li><mark>04/14 - Heute (Elektroniksystem- und Logistik-GmbH)</mark>
+                        <ul>
+                            <li>Entwicklung von python Skripten zur Automatisierung von Jira-Aufgaben</li>
+                            <li>Entwicklung und Umsetzung eines Konzeptes zur optimalen Clientkonfiguration mit Puppet</li>
+                            <li>Unterstützung des Systemadministrators bei diversen Problemstellungen</li>
+                        </ul>
+                    </li>
+                    <br />
+                    <li><mark>02/14 - 05/14 (iliostherm)</mark>
+                        <ul>
+                            <li>Design des Webauftritt</li>
+                            <li>Implementierung eines eigenen Joomla-Layouts</li>
+                        </ul>
+                    </li>
+                    <br />
                     <li><mark>09/13 - Heute (Klaus Mauritz)</mark>
                         <ul>
-                            <li>Programmierung der Android App BewusstlosE (siehe Referenzen)</li>
-                            <li> Fehlerbehebung in der iOS App BewusstlosE</li>
+                            <li>Programmierung der Android App BewusstlosE</li>
+                            <li>Fehlerbehebung in der iOS App BewusstlosE</li>
                         </ul>
                     </li>
                     <br />
@@ -58,7 +80,7 @@
                     <li><mark>12/13 - 03/14 (Linux Information Systems AG)</mark>
                         <ul>
                             <li>Webentwicklung mit Django</li>
-                            <li>Programmierung von Python Scripten</li>
+                            <li>Programmierung diverser Python Scripten</li>
                             <li>Client-/Serverkonfiguration mit Cfengine2/Puppet</li>
                         </ul>
                     </li>
@@ -68,8 +90,8 @@
                             <li>Systemadministrator SuSE</li>
                             <li>Client-Migration von SuSE auf Ubuntu</li>
                             <li>Git-Schulung für das Entwicklerteam</li>
-                            <li>Client-Konfiguration mit Puppet</li>
-                            <li>Qt-Gui Entwicklung mit C++</li>
+                            <!--<li>Client-Konfiguration mit Puppet</li>-->
+                            <!--<li>Qt-Gui Entwicklung mit C++</li>-->
                         </ul>
                     </li>
                     <br />
