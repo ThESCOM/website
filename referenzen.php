@@ -65,6 +65,12 @@
             </article>
         </div>
         <div>
+            <article class="info-box" id="landgasthofberger">
+                <a href="http://landgasthofberger.de">Landgasthof Berger</a>
+                <p><mark>Webauftritt des Landgasthof Berger</mark></p>
+                <p>Die Familie Berger wird von mir für Ihren Landgasthof als
+                Administrator betreut.</p>
+            </article>
             <article class="info-box" id="karoec">
                 <a href="http://karoec.de">Karoec</a>
                 <p><mark>Webauftritt Eishockeyclub Großkarolinenfeld</mark></p>
@@ -75,11 +81,6 @@
                 <a href="http://maxoberberger.net">Blog</a>
                 <p><mark>Eigener Blog</mark></p>
                 <p>Mein eigener Technikblog und Windsurfwebseite.</p>
-            </article>
-            <article class="info-box-empty">
-                <div>
-                </div>
-                <p></p>
             </article>
         </div>
         <!--<div>

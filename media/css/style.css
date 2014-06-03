@@ -321,6 +321,13 @@ body > footer img#googleplus {
 }
 
 /* referenzen */
+#landgasthofberger > a{
+    background-image: url(/media/images/landgasthofberger.de.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
 #kunstgewerbe > a{
     background-image: url(/media/images/oberberger-kunstgewerbe.de.png);
     background-repeat: no-repeat;
