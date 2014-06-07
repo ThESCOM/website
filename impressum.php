@@ -9,7 +9,7 @@
 
         <?php include("nav.php") ?>
 
-<h1>Impressum</h1><p>Angaben gemäß § 5 TMG:<br/><br/></p>
+<h1>Impressum</h1><p>Angaben gemäß § 5 TMG:</p>
 <p>B. Sc. Maximilian Oberberger<br />
 Thoroughly Engineering Solutions and Consulting by Oberberger Max<br />
 Ahornstraße 7<br />
@@ -17,10 +17,10 @@ Ahornstraße 7<br />
 </p>
 <h2>Kontakt:</h2>
 <table><tr>
-<td><p>Telefon:</p></td>
-<td><p>017625687735</p></td></tr>
-<tr><td><p>E-Mail:</p></td>
-<td><p>max@thescom.de</p></td>
+<td>Telefon:</td>
+<td>017625687735</td></tr>
+<tr><td>E-Mail:</td>
+<td>max@thescom.de</td>
 </tr></table>
 
 <h2>Angaben zur Berufshaftpflichtversicherung:</h2>
@@ -38,6 +38,12 @@ Victoriaplatz 2<br />
     <li><a href="https://www.flickr.com/photos/24285431@N04/2375499336/in/photolist-4BV4c7-dmYAr-sJzC-o32n-eGVDo-5Pi84h-d419W-d3Zxx-5cxb6-3pte4P-7aBSQb-37ZYg-6j1BUT-2YwUzm-49sN6T-9A8uFb-bYZkUh-cbt27N-7pU98r-dTfy6n-7av6N-tusEy-y4rSS-8WC5mw-iv3cq-9CdHnr-C2Uv1-b9Dkez-Juvce-v4gy-7Y1Equ-9WSjvm-y37az-83FkJ5-ccXiM-8md3Yj-5i4mzv-gFaDR-3rVZSJ-7vo6pK-4LZgbt-7GFCH4-7UjJXa-41xp8a-3eozEv-4G4huN-Dxff-butoT-3KizN-7bNZYS-569niC">Shane Pope</a> (<a href="index.php#programming">Tastatur</a>) </li>
     <li><a href="https://www.flickr.com/photos/f-oxymoron/9647972522/">Raymond Bryson</a> (<a href="index.php#question">Fragezeichenbox</a>) </li>
 </ul>
+<p> </p>
+
+<h2>Grafische Beratung:</h2>
+<p>Gudrun Dorsch - <u><a href="http://www.gudrun-dorsch.de">gudrun-dorsch.de</a></u></p>
+<p> </p>
+
 
 <h2>Haftungsausschluss:</h2>
 <p><strong>Haftung für Inhalte</strong></p> <p>Die Inhalte unserer Seiten wurden
