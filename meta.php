@@ -7,7 +7,7 @@
     <!--<meta name="copyright" content="Max Oberberger"/>
     <meta name="publisher" content="Max Oberberger"/>-->
     <meta name="description" content="Freiberufler Max Oberberger hilft Ihnen bei all Ihren Computerproblemen"/>
-    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="imagetoolbar" content="no"/>
 
     <link rel="shortcut icon" href="/media/images/favicon.ico">
 
