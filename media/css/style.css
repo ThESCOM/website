@@ -61,7 +61,7 @@ header .description {
     color: #03426b;
 }
 
-header > hgroup {
+header > .hgroup {
     position: absolute;
     background-image: url(/media/images/logo.png);
     height: 100px;
@@ -78,7 +78,7 @@ header h2 {
     color: #03426b;
 }
 
-hgroup {
+.hgroup {
     width: 480px;
     float: left;
 }
