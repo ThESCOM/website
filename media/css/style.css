@@ -466,7 +466,7 @@ body > footer img#googleplus {
     margin-top: -10px;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);*/
 }
 
 #homepage > div, #verschluesselung > div {
@@ -487,7 +487,7 @@ body > footer img#googleplus {
     margin-top: -15px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
 }
 
 .service-info-box {
