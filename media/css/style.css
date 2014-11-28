@@ -158,10 +158,10 @@ nav li:not(:last-of-type):hover {
     margin-left:-4px;
 }
 
-nav #nav-dark-blue {
+nav #nav-dark-blue-start, nav #nav-dark-blue-ref {
     color: white;
 }
-nav #nav-light-blue {
+nav #nav-light-blue-me, nav #nav-light-blue-kont {
     border: 1px solid #1eadfe;
     background-color: #1eadfe;
 }
