@@ -21,7 +21,7 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten d
 Quellen: <a href="http://www.e-recht24.de/muster-datenschutzerklaerung.html">Datenschutzerklärung eRecht24</a>
 
 <h2>Piwik Benutzerstatistik</h2>
-<iframe style="margin-top:-10px;"frameborder="no" width="700px" height="180px" src="https://piwik.karoec.de/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe>
+<iframe style="margin-top:-10px;"frameborder="no" width="700px" height="180px" src="https://piwik.karoec.de/index.php?module=CoreAdminHome&action=optThescom&language=de"></iframe>
 
 
 
