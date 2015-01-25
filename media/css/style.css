@@ -457,7 +457,7 @@ body > footer img#googleplus {
 }
 
 /* services */
-#programmierung > div, #konfigurationsmanagement > div {
+#programmierung > div, #konfigurationsmanagement > div, #schulung > div {
     background-image: url(/media/images/puzzle-green.png);
     background-repeat: no-repeat;
     background-position:33%;
@@ -533,7 +533,7 @@ body > footer img#googleplus {
     margin-top: 38px;
 }
 
-#konfigurationsmanagement > p {
+#konfigurationsmanagement > p, #schulung > p {
     margin-top: 20px;
 }
 
@@ -546,7 +546,7 @@ body > footer img#googleplus {
 }
 
 /* Green */
-#programmierung > h4, #konfigurationsmanagement > h4 {
+#programmierung > h4, #konfigurationsmanagement > h4, #schulung > h4 {
     color: #0ccb03;
 }
 

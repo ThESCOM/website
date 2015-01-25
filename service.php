@@ -38,7 +38,7 @@
                 <div>
                 </div>
                 <h4>Konfigurations-<br />management</h4>
-                <p>Sie sind auf der Suche nach einem passenden Konfigurationsmanagement oder benötigen Unterstützung bei der richtigen Einführung in Ihr Team. Ich biete Ihnen meine langjährige Erfahrung mit CFEngine und Puppet, um eine optimale Lösung zu finden und ggf. umzusetzen.</p>
+                <p>Sie sind auf der Suche nach einem passenden Konfigurationsmanagement oder benötigen Unterstützung bei der richtigen Einführung in Ihr Team. Ich biete Ihnen meine <mark>langjährige Erfahrung mit CFEngine und Puppet</mark>, um eine optimale Lösung zu finden und ggf. umzusetzen.</p>
             </article>
             <article class="service-info-box" id="verschluesselung">
                 <div>
@@ -51,6 +51,12 @@
                 </div>
                 <h4>Unterstützung</h4>
                 <p><mark>Sie benötigen allgemein Hilfe</mark> bei EDV-Tätigkeiten oder technischen Dingen? Ich biete Ihnen <mark>Unterstützung bei Ihren Fragen und Problemen</mark>.</p>
+            </article>
+            <article class="service-info-box" id="schulung">
+                <div>
+                </div>
+                <h4>Schulungen</h4>
+                <p>Sie wollen tiefgründigeres Wissen über das <mark>Konfigurationsmanagement Puppet</mark> oder die <mark>Versionsverwaltung Git</mark> für Sich oder Ihr Team? Ich halte in Ihrem Hause <mark>Schulungen und Lehrgänge</mark> ab um Ihnen oder Ihrem Team den bestmöglichen Umgang mit dem jeweiligen Tool beizubringen.</p>
             </article>
         </div>
         <?php include("footer.php") ?>
