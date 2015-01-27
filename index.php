@@ -11,7 +11,7 @@
 
         <div id="overview">
             <article id="encryption">
-                <p>Datensicherheit wird immer wichtiger. Ob für das eigene
+                <p>Nach dem NSA-Skandal wird Datensicherheit immer wichtiger. Ob für das eigene
                 Backup, Email oder die Website. <mark>Ich helfe Ihnen gerne bei der Verschlüsselung Ihrer Daten!</mark>
                 <br /><br /><a href="service.php#verschluesselung">Mehr Informationen ></a></p>
             </article>
