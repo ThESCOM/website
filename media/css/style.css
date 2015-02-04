@@ -208,6 +208,12 @@ body > footer img#googleplus {
     height:25px;
 }
 
+body > footer img#twago{
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    /*height:25px;*/
+}
 .info-box, body > footer, input[type=submit] {
     background: #1eadfe;
 }

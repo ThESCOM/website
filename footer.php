@@ -3,6 +3,7 @@
     <a href="https://www.facebook.com/thescomIt" target="_blank"><img alt="facebook-icon" id="facebook" src="media/images/Facebook.png"></a>
     <a href="https://twitter.com/chiemseesurfer" target="_blank"><img alt="twitter-icon" id="twitter" src="media/images/Twitter.png"></a>
     <a href="https://google.com/+ThescomDeTS" target="_blank"><img alt="googleplus-icon" id="googleplus" src="media/images/googleplus.png"></a>
+    <a target="_blank" href="http://www.twago.de/p/thescom/125250"><img border="0" src="http://www.twago.de/img/provider/de/btn-small.png" alt="Mein twago Profil" id="twago" /></a>
     </p>
 </footer>
 
