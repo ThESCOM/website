@@ -38,102 +38,132 @@
             </article>
             <article>
             <h3>Projekte (Laufzeit ab 2 Monate)</h3>
-            <div id="projekthistory">
-                <ul>
-                    <li><mark>03/14 - Heute (Linuxland Österreich / Ovido.at)</mark>
-                        <ul>
+            <ul class="cbp_tmtimeline">
+                    <li><time class="cbp_tmtime" datetime="2014-03-01 10:00"><span>06/14 <br> 03/14</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                        <h3>Linuxland Österreich / Ovido.at</h3>
+                        <p><ul>
                             <li>Unterstützung des Entwicklerteams bei der Weiterentwicklung des "Business Process Dashboard for Monitoring Environments (BPView)"</li>
                             <li>Entwicklung einer API für den bpviewd (Daemon)</li>
-                        </ul>
+                        </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>04/14 - Heute (Elektroniksystem- und Logistik-GmbH)</mark>
-                        <ul>
+                    <li><time class="cbp_tmtime" datetime="2014-04-01 10:00"><span>06/14 <br>04/14</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                        <h3>Elektroniksystem- und Logistik-GmbH</h3>
+                        <p><ul>
                             <li>Entwicklung von python Skripten zur Automatisierung von Jira-Aufgaben</li>
                             <li>Entwicklung und Umsetzung eines Konzeptes zur optimalen Clientkonfiguration mit Puppet</li>
                             <li>Unterstützung des Systemadministrators bei diversen Problemstellungen</li>
-                        </ul>
+                        </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>02/14 - 05/14 (iliostherm)</mark>
-                        <ul>
+                    <li><time class="cbp_tmtime" datetime="2014-02-01 10:00"><span>05/14 <br> 02/14</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                        <h3>iliostherm</h3>
+                        <p><ul>
                             <li>Design des Webauftritt</li>
                             <li>Implementierung eines eigenen Joomla-Layouts</li>
-                        </ul>
+                        </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>09/13 - Heute (Klaus Mauritz)</mark>
-                        <ul>
+                    <li><time class="cbp_tmtime" datetime="2013-09-01 10:00"><span>10/14 <br> 09/13</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                        <h3>Klaus Mauritz</h3>
+                        <p><ul>
                             <li>Programmierung der Android App BewusstlosE</li>
                             <li>Fehlerbehebung in der iOS App BewusstlosE</li>
-                        </ul>
+                        </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>10/13 - 03/14 (HBoot Flotte Chiemsee-Simssee)</mark>
-                        <ul>
+                    <li><time class="cbp_tmtime" datetime="2013-10-01 10:00"><span>03/14 <br> 10/13</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                        <h3>HBoot Flotte Chiemsee-Simssee</h3>
+                        <p><ul>
                             <li>Redesign des Webauftritt</li>
                             <li>Implementierung eines eigenen Joomla-Layouts</li>
                             <li>Bereitstellung des Webauftritt</li>
-                        </ul>
+                        </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>12/13 - 03/14 (Linux Information Systems AG)</mark>
-                        <ul>
+                    <li><time class="cbp_tmtime" datetime="2013-12-01 10:00"><span>03/14 <br> 12/13</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                            <h3>Linux Information Systems AG</h3>
+                        <p><ul>
                             <li>Webentwicklung mit Django</li>
                             <li>Programmierung diverser Python Scripten</li>
                             <li>Client-/Serverkonfiguration mit Cfengine2/Puppet</li>
-                        </ul>
+                        </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>09/13 - 11/13 (Elektroniksystem- und Logistik-GmbH)</mark>
-                        <ul>
+                    <li><time class="cbp_tmtime" datetime="2013-09-01 10:00"><span>11/13 <br> 09/13</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                            <h3>Elektroniksystem- und Logistik-GmbH</h3>
+                        <p><ul>
                             <li>Systemadministrator SuSE</li>
                             <li>Client-Migration von SuSE auf Ubuntu</li>
                             <li>Git-Schulung für das Entwicklerteam</li>
-                            <!--<li>Client-Konfiguration mit Puppet</li>-->
-                            <!--<li>Qt-Gui Entwicklung mit C++</li>-->
-                        </ul>
+                            <li>Client-Konfiguration mit Puppet</li>
+                        </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>03/13 - 08/13 (Linux Information Systems AG)</mark>
-                        <ul>
-                            <li>Webentwicklung mit Django</li>
-                            <li>Firefox-Plugin Entwicklung</li>
-                            <li>OPSI-Paketierung</li>
-                            <li>Client-/Serverkonfiguration mit Cfengine2</li>
-                        </ul>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2013-03-01 10:00"><span>08/13 <br>03/13</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                            <h3>Linux Information Systems AG</h3>
+                            <p><ul>
+                                <li>Webentwicklung mit Django</li>
+                                <li>Firefox-Plugin Entwicklung</li>
+                                <li>OPSI-Paketierung</li>
+                                <li>Client-/Serverkonfiguration mit Cfengine2</li>
+                            </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>10/12 - 02/13 (FH-Rosenheim)</mark>
-                        <ul>
-                            <li>Wetterstation auf Android-Basis mit externer Server Anbindung und Android-Widget zur Sensor-Darstellung</li>
-                        </ul>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2012-10-01 10:00"><span>02/13 <br> 10/12</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                            <h3>FH-Rosenheim</h3>
+                            <p><ul>
+                                <li>Wetterstation auf Android-Basis mit externer Server Anbindung und Android-Widget zur Sensor-Darstellung</li>
+                            </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>03/12 - 07/12 (FH-Rosenheim)</mark>
-                        <ul>
-                            <li>Android App (erideaResApp) für das reservieren, buchen und belegen von Stromtankstellen im Auftrag der Eridea</li>
-                        </ul>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2012-03-01 10:00"><span>07/12 <br> 03/12</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                            <h3>FH-Rosenheim</h3>
+                            <p><ul>
+                                <li>Android App (erideaResApp) für das reservieren, buchen und belegen von Stromtankstellen im Auftrag der Eridea</li>
+                            </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>10/11 - 02/12 (Linux Information Systems AG)</mark>
-                        <ul>
-                            <li>Systemadministration Ubuntu Server</li>
-                            <li>Entwicklung mit Python und Perl</li>
-                            <li>Paketierung von deb-Paketen</li>
-                            <li>Umstellung des Entwicklerworkflows von SVN auf Git</li>
-                            <li>Client-/Serverkonfiguration mit Cfengine2</li>
-                        </ul>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2011-10-01 10:00"><span>02/12 <br> 10/11</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                            <h3>Linux Information Systems AG</h3>
+                            <p><ul>
+                                <li>Systemadministration Ubuntu Server</li>
+                                <li>Entwicklung mit Python und Perl</li>
+                                <li>Paketierung von deb-Paketen</li>
+                                <li>Umstellung des Entwicklerworkflows von SVN auf Git</li>
+                                <li>Client-/Serverkonfiguration mit Cfengine2</li>
+                            </ul></p></div>
                     </li>
-                    <br />
-                    <li><mark>08/10 - 09/11 (Elektroniksystem- und Logistik-GmbH)</mark>
-                        <ul>
-                            <li>Systemadministrator SuSE</li>
-                            <li>Paketierung von rpm-Paketen</li>
-                            <li>Integration und Programmierung des Steuerknüppels für einen Kampfjetsimulator (Programmiersprachen: C, C++ -- Hardwarenahe Programmierung)</li>
-                        </ul>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2010-08-01 10:00"><span>09/11 <br> 08/10</span></time>
+                        <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                            <h3>Elektroniksystem- und Logistik-GmbH</h3>
+                            <p><ul>
+                                <li>Systemadministrator SuSE</li>
+                                <li>Paketierung von rpm-Paketen</li>
+                                <li>Integration und Programmierung des Steuerknüppels für einen Kampfjetsimulator (Programmiersprachen: C, C++ -- Hardwarenahe Programmierung)</li>
+                                </ul>
+                            </p>
+                        </div>
                     </li>
-            </div>
+                </ul>
             </article>
         </div>
 
