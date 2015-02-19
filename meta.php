@@ -12,5 +12,35 @@
     <link rel="shortcut icon" href="/media/images/favicon.ico">
 
     <title>ThESCOM - Thoroughly Engineering Solutions & Consulting Oberberger Max</title>
-    <link href="media/css/style.css" rel="stylesheet" type="text/css">
+
+    <!--<link href="media/css/style.css" rel="stylesheet" type="text/css"/>-->
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    /*window.location = "http://m.thescom.de";*/
+    var cssUrl = "media/css/handheld.css";
+
+    var head = document.getElementsByTagName("head")[0];
+
+    var link = document.createElement("link");
+
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = cssUrl;
+
+    document.head.appendChild(link);
+} else {
+    var cssUrl = "media/css/style.css";
+
+    var head = document.getElementsByTagName("head")[0];
+
+    var link = document.createElement("link");
+
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = cssUrl;
+
+    document.head.appendChild(link);
+}
+</script>
+
 </head>
