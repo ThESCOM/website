@@ -54,6 +54,7 @@ header {
 }
 
 header .description {
+    display: none;
     text-align: right;
     width: 330px;
     padding-top: 18px;
@@ -280,12 +281,14 @@ body > footer img#twago{
 .info-box, .info-box-empty {
     margin: auto;
     width: 80%;
+    max-width: 250px;
+    min-width: 230px;
     height: 350px;
     margin-top: 10px;
 }
 
 /*.info-box:nth-of-type(2), .info-box-empty:nth-of-type(2) {
-    margin-left: 25px;
+    margin-left: 5px;
 }*/
 
 /*.info-box:not(:last-of-type), .info-box-empty:not(:last-of-type) {
@@ -294,6 +297,11 @@ body > footer img#twago{
 
 /*.info-box:last-of-type, .info-box-empty:last-of-type {
     margin-left: 550px;
+}*/
+
+/*.info-box:last-of-type, .info-box-empty:last-of-type {
+    float: left;
+    margin-top: 10px;
 }*/
 
 .info-box > a{
