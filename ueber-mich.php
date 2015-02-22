@@ -26,11 +26,6 @@
                     <mark>Systemadministrator</mark>
                     mit Linux-Betriebssystemen</li>
                     <li>Tiefgreifende Erfahrung mit der <mark>Versionsverwaltung Git</mark></li>
-                    <!--<li>3 Jahre Erfahrung <mark>Python-Entwicklung</mark></li>
-                    <li>2 Jahre Erfahrung in der Virtualisierung mit kvm, drbd und
-                    lvm</li>-->
-                    <!--<li>Über 1 Jahr Erfahrung mit Client- und Serverkonfiguration durch
-                    CFEngine2</li>-->
                     <li>Über 1 Jahr Erfahrung mit <mark>Client- und
                     Serverkonfiguration durch puppet</mark></li>
                 </ul>
