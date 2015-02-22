@@ -11,6 +11,9 @@
 
         <div id="private">
             <article class="info-box-horizontal">
+            <div id="info-box-horizontal-information">
+                <img src="media/images/portrait.jpg">
+            </div>
             <div id="info-box-horizontal-description">
                 <p><mark>Name:</mark> Max Oberberger</p>
                 <p><mark>Abschluss:</mark> Bachelor of Science (FH-Rosenheim)</p>
@@ -31,9 +34,6 @@
                     <li>Über 1 Jahr Erfahrung mit <mark>Client- und
                     Serverkonfiguration durch puppet</mark></li>
                 </ul>
-            </div>
-            <div id="info-box-horizontal-information">
-                <img src="media/images/portrait.jpg">
             </div>
             </article>
             <article>

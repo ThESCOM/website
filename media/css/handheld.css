@@ -23,6 +23,7 @@
 html {
     height: 100%;
     width: 100%;
+    zoom: 200%;
 }
 body {
     margin: auto;
@@ -55,12 +56,12 @@ header {
 
 header .description {
     display: none;
-    text-align: right;
+    /*text-align: right;
     width: 330px;
     padding-top: 18px;
     margin-left: 470px;
     font-size: 13px;
-    color: #03426b;
+    color: #03426b;*/
 }
 
 header > .hgroup {
@@ -116,20 +117,30 @@ body > *:not(header){
 
 
 /* Navigation */
-/*nav {
-    background: #03426b;
-}*/
+nav {
+    /*background: #03426b;*/
+    /*height: auto;*/
+    margin-left: -10%;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+}
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    /*padding: 0;*/
+    /*height: auto;*/
+    height: 70%;
 }
 
 nav li {
-    display: inline-block;
+    display: inline-flex;
     margin: 0;
     padding: 6px 15px 10px;
-    width:90%;
+    width:100%;
+    /*height: 70%;*/
+    /*width: auto;*/
+    /*max-width: 250px;*/
     text-align: center;
 }
 
@@ -279,11 +290,13 @@ body > footer img#twago{
 
 /* startseite boxen */
 .info-box, .info-box-empty {
-    margin: auto;
+    /*margin: auto;*/
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
-    max-width: 250px;
-    min-width: 230px;
-    height: 350px;
+    /*max-width: 250px;
+    min-width: 230px;*/
+    min-height: 450px;
     margin-top: 10px;
 }
 
@@ -306,7 +319,7 @@ body > footer img#twago{
 
 .info-box > a{
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     background: #000;
     border-bottom: 1px solid hsl(0,0%,90%);
     text-indent: -9999px;
@@ -314,7 +327,7 @@ body > footer img#twago{
 
 .info-box > div {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     background: #000;
     border-bottom: 1px solid hsl(0,0%,90%);
 }
@@ -431,8 +444,9 @@ body > footer img#twago{
 
 /* ueber-mich */
 .info-box-horizontal {
-    width: 800px;
-    height: 300px;
+    margin-left: 10px;
+    /*width: 800px;
+    height: 300px;*/
 }
 
 #projekthistory {
@@ -451,25 +465,36 @@ body > footer img#twago{
 }
 
 .info-box-horizontal > div > img {
-    width:175px;
+    max-width:175px;
     border-bottom: 1px solid hsl(0,0%,90%);
-    margin-left:-14px;
-    margin-top: 15px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*margin-left:-14px;
+    margin-top: 15px;*/
 }
 
 .info-box-horizontal #info-box-horizontal-description {
-    height: 500px;
-    width: 450px;
-    position: absolute;
-    padding: 0 1em;
-    margin-left: 212px;
+    /*height: 500px;*/
+    width: 100%;
+    /*width: 450px;*/
+    /*position: absolute;
+    padding: 0 1em;*/
+    /*margin-left: 212px;*/
+    -webkit-flex: 1 6 60%;
+    flex: 1 6 60%;
+    -webkit-order: 2;
+    order: 2;
 }
 
 .info-box-horizontal #info-box-horizontal-information {
-    height: 200px;
-    width: 180px;
-    position: absolute;
-    padding: 0 1em;
+    /*max-height: 200px;
+    max-width: 180px;*/
+    /*position: absolute;*/
+    /*padding: 0 1em;*/
+    -webkit-flex: 1 6 100%;
+    flex: 1 6 100%;
+    -webkit-order: 1;
+    order: 1;
 }
 
 .info-box-horizontal #info-box-horizontal-description ul, .info-box-horizontal #info-box-horizontal-information ul, #projekthistory > ul{
@@ -482,66 +507,90 @@ body > footer img#twago{
 
 /* services */
 #programmierung > div, #konfigurationsmanagement > div, #schulung > div {
-    background-image: url(/media/images/puzzle-green.png);
+    display:none;
+    /*background-image: url(/media/images/puzzle-green.png);
     background-repeat: no-repeat;
     background-position:33%;
     background-size: 61%;
     margin-left:-119px;
     margin-top: -10px;
     -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);*/
     /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);*/
 }
 
 #homepage > div, #verschluesselung > div {
-    background-image: url(/media/images/puzzle-light-blue.png);
+    display:none;
+    /*background-image: url(/media/images/puzzle-light-blue.png);
     background-repeat: no-repeat;
     background-position:47%;
     background-size: 58%;
     margin-left:-103px;
-    margin-top: -10px;
+    margin-top: -10px;*/
 }
 
 #vcs > div, #administration > div, #unterstuetzung > div {
-    background-image: url(/media/images/puzzle-dark-blue.png);
+    display:none;
+    /*background-image: url(/media/images/puzzle-dark-blue.png);
     background-repeat: no-repeat;
     background-position:50%;
     background-size: 52%;
     margin-left:-105px;
     margin-top: -15px;
     -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);*/
     /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
 }
 
 .service-info-box {
-    width: 700px;
-    height: 180px;
-    margin-left: 60px;
+    width: 100%;
+    /*height: 180px;*/
+    /*min-height: 180px;*/
+    margin-left: 8px;
+    /*display: -webkit-flex;
+    display:         flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;*/
+}
+
+#service-container {
+    margin-top: 60px;
 }
 
 .service-info-box > div {
-    width: 200px;
-    height: 150px;
-    margin-left: -50px;
-    position: absolute;
+    width: 100%;
+    /*max-height: 150px;*/
+    /*margin-left: -50px;*/
+    /*position: relative;*/
+    -webkit-flex: 1 6 60%;
+    flex: 1 6 60%;
+    -webkit-order: 1;
+    order: 1;
 }
 
 .service-info-box > p {
-    position: absolute;
-    width: 500px;
-    max-width: 400px;
-    margin-left: 261px;
+    /*position: absolute;*/
+    /*min-width: 500px;*/
+    /*max-width: 400px;*/
+    /*margin-left: 261px;*/
     margin-top: -10px;
-    padding: 0 1em;
+    /*padding: 0 1em;*/
+    -webkit-flex: 1 6 50%;
+    flex: 1 6 50%;
+    -webkit-order: 3;
+    order: 3;
 }
 
 .service-info-box > h4 {
-    position: absolute;
-    margin-left:70px;
+    /*position: absolute;*/
+    /*margin-left:70px;*/
     margin-top: 50px;
     font-size: 18px;
     font-weight: bold;
+    -webkit-flex: 3 1 50%;
+    flex: 3 1 50%;
+    -webkit-order: 2;
+    order: 2;
 }
 
 .service-info-box:not(:first-of-type){
@@ -596,15 +645,29 @@ body > footer img#twago{
 
 /* Kontakt */
 .contact-box {
-    width: 800px;
-    height: 410px;
+    max-width: 800px;
+    margin-left: 10px;
+    /*height: 410px;*/
+}
+.contact-box #contact-form {
+    -webkit-flex: 1 6 60%;
+    flex: 1 6 60%;
+    -webkit-order: 2;
+    order: 2;
+}
+
+.contact-box #contact-info {
+    -webkit-flex: 1 6 60%;
+    flex: 1 6 60%;
+    -webkit-order: 1;
+    order: 1;
 }
 
 form {
-    width: 300px;
-    margin-left: 350px;
-    position: absolute;
-    margin-top: -124px;
+    max-width: 300px;
+    /*margin-left: 350px;*/
+    /*position: absolute;*/
+    /*margin-top: -124px;*/
 }
 
 input, textarea {
@@ -760,6 +823,28 @@ input[type=submit] {
 
 .cbp_tmicon-earth:before {
     content: "\e003";
+}
+
+@media all and (max-width: 640px) {
+    .service-info-box, .info-box-horizontal, .contact-box{
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        flex-direction: column;
+    }
+    .service-info-box > div, .service-info-box > h4, .service-info-box > p, .info-box-horizontal > #info-box-horizontal-description, .info-box-horizontal > #info-box-horizontal-information,  .contact-box > #contact-info, .contact-box > #contact-form{
+        -webkit-order: 0;
+        order: 0;
+    }
+    /*#service-container {
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        flex-direction: column;
+    }
+
+    #service-container > article {
+        -webkit-order: 0;
+        order: 0;
+    }*/
 }
 
 /* Example Media Queries */

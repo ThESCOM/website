@@ -12,10 +12,13 @@
         <div id="private">
 
             <article class="contact-box">
+            <div id="contact-info">
             <h4>Kontaktieren Sie mich</h4>
             <p><mark>Name:</mark> Max Oberberger</p>
             <p><mark>Email:</mark> max@thescom.de</p>
             <p><mark>Tel:</mark> +49 17625687735</p>
+            </div>
+            <div id="contact-form">
 
 <form action="http://maxoberberger.net/cgi-bin/selfmail.pl" method="post">
     <input type="hidden" name="return" value="http://thescom.de/kontakt.php">
@@ -33,6 +36,7 @@
     <input type="submit" value="Absenden" />
 </form>
 
+            </div>
             </article>
         </div>
 
