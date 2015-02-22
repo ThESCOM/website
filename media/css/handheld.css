@@ -31,7 +31,6 @@ body {
     font-family: 'Arial';
     font-size: 14px;
     color: #03426b;
-    /*background-color: black;*/
 }
 
 a {
@@ -56,12 +55,6 @@ header {
 
 header .description {
     display: none;
-    /*text-align: right;
-    width: 330px;
-    padding-top: 18px;
-    margin-left: 470px;
-    font-size: 13px;
-    color: #03426b;*/
 }
 
 header > .hgroup {
@@ -115,11 +108,8 @@ body > *:not(header){
     margin-top: 30px;
 }
 
-
 /* Navigation */
 nav {
-    /*background: #03426b;*/
-    /*height: auto;*/
     margin-left: -10%;
     width: 100%;
     display: -webkit-flex;
@@ -128,8 +118,6 @@ nav {
 nav ul {
     list-style-type: none;
     margin: auto;
-    /*padding: 0;*/
-    /*height: auto;*/
     height: 70%;
 }
 
@@ -138,9 +126,6 @@ nav li {
     margin: 0;
     padding: 6px 15px 10px;
     width:100%;
-    /*height: 70%;*/
-    /*width: auto;*/
-    /*max-width: 250px;*/
     text-align: center;
 }
 
@@ -154,7 +139,6 @@ nav li:first-of-type {
 }
 
 nav li:not(:last-of-type) {
-    /*margin-left:-4px;*/
     margin-top: 5px;
 }
 
@@ -232,7 +216,6 @@ body > footer img#twago{
     position: relative;
     float: right;
     margin-right: 5px;
-    /*height:25px;*/
 }
 .info-box, body > footer, input[type=submit] {
     background: #1eadfe;
@@ -242,24 +225,7 @@ body > footer img#twago{
 #overview {
     position: relative;
     width: 100%;
-    /*height: 400px;*/
 }
-
-/*#overview article {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 400px;
-    font-size: 13px;*/
-
-    /* Uebergang zwischen den einzelnen Artikeln */
-    /*-webkit-transition: opacity 1.5s;
-    -moz-transition: opacity 1.5s;
-    -ms-transition: opacity 1.5s;
-    -o-transition: opacity 1.5s;
-    transition: opacity 1.5s;
-}*/
 
 #overview p {
     width: 200px;
@@ -290,32 +256,12 @@ body > footer img#twago{
 
 /* startseite boxen */
 .info-box, .info-box-empty {
-    /*margin: auto;*/
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    /*max-width: 250px;
-    min-width: 230px;*/
     min-height: 450px;
     margin-top: 10px;
 }
-
-/*.info-box:nth-of-type(2), .info-box-empty:nth-of-type(2) {
-    margin-left: 5px;
-}*/
-
-/*.info-box:not(:last-of-type), .info-box-empty:not(:last-of-type) {
-    float: left;
-}*/
-
-/*.info-box:last-of-type, .info-box-empty:last-of-type {
-    margin-left: 550px;
-}*/
-
-/*.info-box:last-of-type, .info-box-empty:last-of-type {
-    float: left;
-    margin-top: 10px;
-}*/
 
 .info-box > a{
     width: 100%;
@@ -445,8 +391,6 @@ body > footer img#twago{
 /* ueber-mich */
 .info-box-horizontal {
     margin-left: 10px;
-    /*width: 800px;
-    height: 300px;*/
 }
 
 #projekthistory {
@@ -467,19 +411,10 @@ body > footer img#twago{
 .info-box-horizontal > div > img {
     max-width:175px;
     border-bottom: 1px solid hsl(0,0%,90%);
-    /*margin-left: auto;
-    margin-right: auto;*/
-    /*margin-left:-14px;
-    margin-top: 15px;*/
 }
 
 .info-box-horizontal #info-box-horizontal-description {
-    /*height: 500px;*/
     width: 100%;
-    /*width: 450px;*/
-    /*position: absolute;
-    padding: 0 1em;*/
-    /*margin-left: 212px;*/
     -webkit-flex: 1 6 60%;
     flex: 1 6 60%;
     -webkit-order: 2;
@@ -487,10 +422,6 @@ body > footer img#twago{
 }
 
 .info-box-horizontal #info-box-horizontal-information {
-    /*max-height: 200px;
-    max-width: 180px;*/
-    /*position: absolute;*/
-    /*padding: 0 1em;*/
     -webkit-flex: 1 6 100%;
     flex: 1 6 100%;
     -webkit-order: 1;
@@ -508,49 +439,19 @@ body > footer img#twago{
 /* services */
 #programmierung > div, #konfigurationsmanagement > div, #schulung > div {
     display:none;
-    /*background-image: url(/media/images/puzzle-green.png);
-    background-repeat: no-repeat;
-    background-position:33%;
-    background-size: 61%;
-    margin-left:-119px;
-    margin-top: -10px;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);*/
-    /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);*/
 }
 
 #homepage > div, #verschluesselung > div {
     display:none;
-    /*background-image: url(/media/images/puzzle-light-blue.png);
-    background-repeat: no-repeat;
-    background-position:47%;
-    background-size: 58%;
-    margin-left:-103px;
-    margin-top: -10px;*/
 }
 
 #vcs > div, #administration > div, #unterstuetzung > div {
     display:none;
-    /*background-image: url(/media/images/puzzle-dark-blue.png);
-    background-repeat: no-repeat;
-    background-position:50%;
-    background-size: 52%;
-    margin-left:-105px;
-    margin-top: -15px;
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);*/
-    /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
 }
 
 .service-info-box {
     width: 100%;
-    /*height: 180px;*/
-    /*min-height: 180px;*/
     margin-left: 8px;
-    /*display: -webkit-flex;
-    display:         flex;
-    -webkit-flex-flow: row;
-    flex-flow: row;*/
 }
 
 #service-container {
@@ -559,9 +460,6 @@ body > footer img#twago{
 
 .service-info-box > div {
     width: 100%;
-    /*max-height: 150px;*/
-    /*margin-left: -50px;*/
-    /*position: relative;*/
     -webkit-flex: 1 6 60%;
     flex: 1 6 60%;
     -webkit-order: 1;
@@ -569,12 +467,7 @@ body > footer img#twago{
 }
 
 .service-info-box > p {
-    /*position: absolute;*/
-    /*min-width: 500px;*/
-    /*max-width: 400px;*/
-    /*margin-left: 261px;*/
     margin-top: -10px;
-    /*padding: 0 1em;*/
     -webkit-flex: 1 6 50%;
     flex: 1 6 50%;
     -webkit-order: 3;
@@ -582,8 +475,6 @@ body > footer img#twago{
 }
 
 .service-info-box > h4 {
-    /*position: absolute;*/
-    /*margin-left:70px;*/
     margin-top: 50px;
     font-size: 18px;
     font-weight: bold;
@@ -647,7 +538,6 @@ body > footer img#twago{
 .contact-box {
     max-width: 800px;
     margin-left: 10px;
-    /*height: 410px;*/
 }
 .contact-box #contact-form {
     -webkit-flex: 1 6 60%;
@@ -665,9 +555,6 @@ body > footer img#twago{
 
 form {
     max-width: 300px;
-    /*margin-left: 350px;*/
-    /*position: absolute;*/
-    /*margin-top: -124px;*/
 }
 
 input, textarea {
@@ -691,7 +578,6 @@ input, textarea {
 input[type=submit] {
     padding:10px;
 }
-
 
 .cbp_tmtimeline {
     margin: 30px 0 0 0;
@@ -835,16 +721,6 @@ input[type=submit] {
         -webkit-order: 0;
         order: 0;
     }
-    /*#service-container {
-        -webkit-flex-flow: column;
-        flex-flow: column;
-        flex-direction: column;
-    }
-
-    #service-container > article {
-        -webkit-order: 0;
-        order: 0;
-    }*/
 }
 
 /* Example Media Queries */
