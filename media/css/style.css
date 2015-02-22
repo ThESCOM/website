@@ -212,7 +212,6 @@ body > footer img#twago{
     position: relative;
     float: right;
     margin-right: 5px;
-    /*height:25px;*/
 }
 .info-box, body > footer, input[type=submit] {
     background: #1eadfe;
@@ -472,7 +471,6 @@ body > footer img#twago{
     margin-top: -10px;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
-    /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);*/
 }
 
 #homepage > div, #verschluesselung > div {
@@ -493,7 +491,6 @@ body > footer img#twago{
     margin-top: -15px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
-    /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
 }
 
 .service-info-box {
