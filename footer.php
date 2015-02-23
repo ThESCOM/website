@@ -8,6 +8,7 @@
 </footer>
 
 <script type="text/javascript" src="media/js/script.js"></script>
+
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
