@@ -1,5 +1,5 @@
 <footer>
-    <p>&copy; 2013 - 2014 ThESCOM (Max Oberberger) | <a href="impressum.php">Impressum</a> | <a href="datenschutz.php">Datenschutz</a>
+    <p>&copy; 2013 - <script language="javascript" type="text/javascript"> var today = new Date(); var year = today.getFullYear(); document.write(year);</script> ThESCOM (Max Oberberger) | <a href="impressum.php">Impressum</a> | <a href="datenschutz.php">Datenschutz</a>
     <a href="https://www.facebook.com/thescomIt" target="_blank"><img alt="facebook-icon" id="facebook" src="media/images/Facebook.png"></a>
     <a href="https://twitter.com/chiemseesurfer" target="_blank"><img alt="twitter-icon" id="twitter" src="media/images/Twitter.png"></a>
     <a href="https://google.com/+ThescomDeTS" target="_blank"><img alt="googleplus-icon" id="googleplus" src="media/images/googleplus.png"></a>
