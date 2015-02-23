@@ -96,10 +96,6 @@ nav li, .info-box, .info-box-horizontal, body > iframe, .info-box-horizontal > d
     -webkit-border-top-right-radius: 4px;
 }
 
-/*#overview {
-    width: 95%;
-}*/
-
 /*#overview, */
 
 .info-box, body > footer {
@@ -403,7 +399,6 @@ body > footer img#twago{
 
 /* ueber-mich */
 .info-box-horizontal {
-    /*margin-left: 3px;*/
 }
 
 #projekthistory {
