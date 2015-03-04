@@ -50,7 +50,7 @@ mark {
 
 header {
     padding-top: 10px;
-    height: 80px;
+    height: 180px;
 }
 
 header .description {
@@ -60,9 +60,10 @@ header .description {
 header > .hgroup {
     position: absolute;
     background-image: url(/media/images/logo.png);
-    height: 100px;
+    height: 200px;
+    max-height: 500px;
     background-repeat: no-repeat;
-    background-size: 27%;
+    background-size: 53%;
 }
 
 header > img {
@@ -76,6 +77,7 @@ header h2 {
 
 .hgroup {
     width: 480px;
+    max-width: 100%;
     float: left;
 }
 
@@ -111,6 +113,7 @@ nav {
     width: 100%;
     display: -webkit-flex;
     display: flex;
+    font-size: 3em;
 }
 nav ul {
     list-style-type: none;
@@ -229,12 +232,14 @@ body > footer img#twago{
 #overview > article {
     border: 1px solid #1eadfe;
     margin-top: 10px;
+    max-height: 500px;
 }
 
 #overview p {
-    width: 200px;
+    max-width: 50%;
     height: 180px;
     opacity: 0.8;
+    font-size: 2em;
 }
 
 #overview article p {
@@ -263,8 +268,8 @@ body > footer img#twago{
 .info-box, .info-box-empty {
     margin-left: auto;
     margin-right: auto;
+    max-height: 500px;
     width: 90%;
-    max-height: 450px;
     margin-top: 5px;
 }
 
@@ -289,6 +294,7 @@ body > footer img#twago{
 
 .info-box > p {
     padding: 0 1em;
+    font-size: 2em;
 }
 
 #programming > div{
