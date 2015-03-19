@@ -18,7 +18,7 @@ Ahornstraße 7<br />
 <h2>Kontakt:</h2>
 <table><tr>
 <td>Telefon:</td>
-<td>017625687735</td></tr>
+<td>+49(0)17611442295</td></tr>
 <tr><td>E-Mail:</td>
 <td>max@thescom.de</td>
 </tr></table>

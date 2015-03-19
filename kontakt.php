@@ -15,7 +15,7 @@
             <h4>Kontaktieren Sie mich</h4>
             <p><mark>Name:</mark> Max Oberberger</p>
             <p><mark>Email:</mark> max@thescom.de</p>
-            <p><mark>Tel:</mark> +49 17625687735</p>
+            <p><mark>Tel:</mark> +49 (0)17611442295</p>
 
 <form action="http://maxoberberger.net/cgi-bin/selfmail.pl" method="post">
     <input type="hidden" name="return" value="http://thescom.de/kontakt.php">
