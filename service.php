@@ -9,7 +9,7 @@
 
         <?php include("nav.php") ?>
 
-        <div>
+        <div id="service-container">
             <article class="service-info-box" id="vcs">
                 <div>
                 </div>

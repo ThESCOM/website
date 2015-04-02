@@ -23,10 +23,11 @@
 html {
     height: 100%;
     width: 100%;
+    zoom: 200%;
 }
 body {
     margin: auto;
-    width: 800px;
+    width: 90%;
     font-family: 'Arial';
     font-size: 14px;
     color: #03426b;
@@ -49,24 +50,20 @@ mark {
 
 header {
     padding-top: 10px;
-    height: 80px;
+    height: 180px;
 }
 
 header .description {
-    text-align: right;
-    width: 330px;
-    padding-top: 18px;
-    margin-left: 470px;
-    font-size: 13px;
-    color: #03426b;
+    display: none;
 }
 
 header > .hgroup {
     position: absolute;
     background-image: url(/media/images/logo.png);
-    height: 100px;
+    height: 200px;
+    max-height: 500px;
     background-repeat: no-repeat;
-    background-size: 27%;
+    background-size: 53%;
 }
 
 header > img {
@@ -80,11 +77,12 @@ header h2 {
 
 .hgroup {
     width: 480px;
+    max-width: 100%;
     float: left;
 }
 
 /*border-radius*/
-nav, .info-box, .info-box-horizontal, body > iframe, .info-box-horizontal > div > img, #service-overview, #overview, #overview > article p, #overview > #encryption, #overview > #complicated{
+nav li, .info-box, .info-box-horizontal, body > iframe, .info-box-horizontal > div > img, #service-overview, #overview, #overview > article p, #overview > #encryption, #overview > #complicated{
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -100,7 +98,9 @@ nav, .info-box, .info-box-horizontal, body > iframe, .info-box-horizontal > div 
     -webkit-border-top-right-radius: 4px;
 }
 
-#overview, .info-box, body > footer {
+/*#overview, */
+
+.info-box, body > footer {
     border: 1px solid #1eadfe;
 }
 
@@ -108,41 +108,43 @@ body > *:not(header){
     margin-top: 30px;
 }
 
-
 /* Navigation */
 nav {
-    background: #03426b;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 3em;
 }
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    float: left;
+    width: 100%;
 }
 
 nav li {
-    display: inline-block;
-    margin: 0;
+    display: inline-flex;
+    margin-left: -40px;
     padding: 6px 15px 10px;
-    width:80px;
+    width: 100%;
     text-align: center;
+
 }
 
 nav li:first-of-type {
-    -webkit-border-top-left-radius: 3px;
-    -moz-border-top-left-radius: 3px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    -webkit-border-bottom-left-radius: 3px;
-    -moz-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-bottom-left-radius: 6px;
 }
 
 nav li:not(:last-of-type) {
-    margin-left:-4px;
+    margin-top: 5px;
 }
 
 nav li:last-of-type {
     border: none;
-    float: right;
     -webkit-box-shadow: none;
     -khtml-box-shadow: none;
     -moz-box-shadow: none;
@@ -155,10 +157,12 @@ nav li:last-of-type {
 
 nav li:not(:last-of-type):hover {
     text-shadow: -1px -1px 0 hsla(0,0%,100%,0.3);
-    margin-left:-4px;
+    margin-left:-37px;
 }
 
 nav #nav-dark-blue-start, nav #nav-dark-blue-ref {
+    border: 1px solid #03426b;
+    background-color: #03426b;
     color: white;
 }
 nav #nav-light-blue-me, nav #nav-light-blue-kont {
@@ -220,30 +224,23 @@ body > footer img#twago{
 /* Slideshow */
 #overview {
     position: relative;
-    width: 100%;
-    height: 400px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
 }
 
-#overview article {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 400px;
-    font-size: 13px;
-
-    /* Uebergang zwischen den einzelnen Artikeln */
-    -webkit-transition: opacity 1.5s;
-    -moz-transition: opacity 1.5s;
-    -ms-transition: opacity 1.5s;
-    -o-transition: opacity 1.5s;
-    transition: opacity 1.5s;
+#overview > article {
+    border: 1px solid #1eadfe;
+    margin-top: 10px;
+    max-height: 500px;
 }
 
 #overview p {
-    width: 200px;
+    max-width: 50%;
     height: 180px;
     opacity: 0.8;
+    font-size: 2em;
 }
 
 #overview article p {
@@ -258,36 +255,32 @@ body > footer img#twago{
     background-image: url(/media/images/verschluesselt.jpg);
     background-repeat: no-repeat;
     background-position:40%;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #overview article#complicated{
     background-image: url(/media/images/complicated-new.jpg);
+    background-repeat: no-repeat;
     background-position:40%;
-    background-size: 100%;
+    background-size: cover;
 }
 
 /* startseite boxen */
 .info-box, .info-box-empty {
-    width: 250px;
-    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    width: 90%;
+    margin-top: 5px;
 }
 
-.info-box:nth-of-type(2), .info-box-empty:nth-of-type(2) {
-    margin-left: 25px;
-}
-
-.info-box:not(:last-of-type), .info-box-empty:not(:last-of-type) {
-    float: left;
-}
-
-.info-box:last-of-type, .info-box-empty:last-of-type {
-    margin-left: 550px;
+.info-box:not(:first-of-type) {
+    margin-top: 20px;
 }
 
 .info-box > a{
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     background: #000;
     border-bottom: 1px solid hsl(0,0%,90%);
     text-indent: -9999px;
@@ -295,13 +288,14 @@ body > footer img#twago{
 
 .info-box > div {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     background: #000;
     border-bottom: 1px solid hsl(0,0%,90%);
 }
 
 .info-box > p {
     padding: 0 1em;
+    font-size: 2em;
 }
 
 #programming > div{
@@ -412,8 +406,6 @@ body > footer img#twago{
 
 /* ueber-mich */
 .info-box-horizontal {
-    width: 800px;
-    height: 300px;
 }
 
 #projekthistory {
@@ -432,25 +424,23 @@ body > footer img#twago{
 }
 
 .info-box-horizontal > div > img {
-    width:175px;
+    max-width:175px;
     border-bottom: 1px solid hsl(0,0%,90%);
-    margin-left:-14px;
-    margin-top: 15px;
 }
 
 .info-box-horizontal #info-box-horizontal-description {
-    height: 500px;
-    width: 450px;
-    position: absolute;
-    padding: 0 1em;
-    margin-left: 212px;
+    width: 100%;
+    -webkit-flex: 1 6 60%;
+    flex: 1 6 60%;
+    -webkit-order: 2;
+    order: 2;
 }
 
 .info-box-horizontal #info-box-horizontal-information {
-    height: 200px;
-    width: 180px;
-    position: absolute;
-    padding: 0 1em;
+    -webkit-flex: 1 6 100%;
+    flex: 1 6 100%;
+    -webkit-order: 1;
+    order: 1;
 }
 
 .info-box-horizontal #info-box-horizontal-description ul, .info-box-horizontal #info-box-horizontal-information ul, #projekthistory > ul{
@@ -463,64 +453,50 @@ body > footer img#twago{
 
 /* services */
 #programmierung > div, #konfigurationsmanagement > div, #schulung > div {
-    background-image: url(/media/images/puzzle-green.png);
-    background-repeat: no-repeat;
-    background-position:33%;
-    background-size: 61%;
-    margin-left:-119px;
-    margin-top: -10px;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
+    display:none;
 }
 
 #homepage > div, #verschluesselung > div {
-    background-image: url(/media/images/puzzle-light-blue.png);
-    background-repeat: no-repeat;
-    background-position:47%;
-    background-size: 58%;
-    margin-left:-103px;
-    margin-top: -10px;
+    display:none;
 }
 
 #vcs > div, #administration > div, #unterstuetzung > div {
-    background-image: url(/media/images/puzzle-dark-blue.png);
-    background-repeat: no-repeat;
-    background-position:50%;
-    background-size: 52%;
-    margin-left:-105px;
-    margin-top: -15px;
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
+    display:none;
 }
 
 .service-info-box {
-    width: 700px;
-    height: 180px;
-    margin-left: 60px;
+    width: 95%;
+    margin-left: 8px;
+}
+
+#service-container {
+    margin-top: 50px;
 }
 
 .service-info-box > div {
-    width: 200px;
-    height: 150px;
-    margin-left: -50px;
-    position: absolute;
+    width: 100%;
+    -webkit-flex: 1 6 60%;
+    flex: 1 6 60%;
+    -webkit-order: 1;
+    order: 1;
 }
 
 .service-info-box > p {
-    position: absolute;
-    width: 500px;
-    max-width: 400px;
-    margin-left: 261px;
     margin-top: -10px;
-    padding: 0 1em;
+    -webkit-flex: 1 6 50%;
+    flex: 1 6 50%;
+    -webkit-order: 3;
+    order: 3;
 }
 
 .service-info-box > h4 {
-    position: absolute;
-    margin-left:70px;
     margin-top: 50px;
     font-size: 18px;
     font-weight: bold;
+    -webkit-flex: 3 1 50%;
+    flex: 3 1 50%;
+    -webkit-order: 2;
+    order: 2;
 }
 
 .service-info-box:not(:first-of-type){
@@ -575,15 +551,25 @@ body > footer img#twago{
 
 /* Kontakt */
 .contact-box {
-    width: 800px;
-    height: 410px;
+    max-width: 800px;
+    margin-left: 10px;
+}
+.contact-box #contact-form {
+    -webkit-flex: 1 6 60%;
+    flex: 1 6 60%;
+    -webkit-order: 2;
+    order: 2;
+}
+
+.contact-box #contact-info {
+    -webkit-flex: 1 6 60%;
+    flex: 1 6 60%;
+    -webkit-order: 1;
+    order: 1;
 }
 
 form {
-    width: 300px;
-    margin-left: 350px;
-    position: absolute;
-    margin-top: -124px;
+    max-width: 300px;
 }
 
 input, textarea {
@@ -607,7 +593,6 @@ input, textarea {
 input[type=submit] {
     padding:10px;
 }
-
 
 .cbp_tmtimeline {
     margin: 30px 0 0 0;
@@ -739,6 +724,18 @@ input[type=submit] {
 
 .cbp_tmicon-earth:before {
     content: "\e003";
+}
+
+@media all and (max-width: 640px) {
+    .service-info-box, .info-box-horizontal, .contact-box, #overview{
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        flex-direction: column;
+    }
+    .service-info-box > div, .service-info-box > h4, .service-info-box > p, .info-box-horizontal > #info-box-horizontal-description, .info-box-horizontal > #info-box-horizontal-information,  .contact-box > #contact-info, .contact-box > #contact-form, #overview > #encryption, #overview > #complicated {
+        -webkit-order: 0;
+        order: 0;
+    }
 }
 
 /* Example Media Queries */
